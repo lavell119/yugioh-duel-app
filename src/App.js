@@ -1,12 +1,11 @@
 import './App.css';
 import Field from './components/Field.js'
-import AllCards from './components/AllCards.js'
+import AllCards from './AllCards.js'
 
 
 function App() {
   return (
     <div className="App">
-      <Field />
       <AllCards />
     </div>
   );

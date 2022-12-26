@@ -9,19 +9,23 @@ trap hole
 monster reborn
 dark hole
 mystical space typhoon
-scapegoat
+blue eyes white dragon
 
+
+scapegoat
 pot of greed
 mystic tomato
 summoned skull
 exodia the forbidden one
 jinzo
+-
 magic cylinder
 buster blader
 seven tools of the bandit
 giant soldier of stone
 spellbinding circle
 dark magician girl
+big shield gardna
 
 C:\Users\levy\Desktop\Development\yugioh-duel-app\public\images\cards\beast_of_talwar.webp
 

@@ -67,3 +67,26 @@
 .player_2 {
   transform: rotateZ(180deg);
 }
+
+.all-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-test {
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 13px;
+  font-weight: bold;
+}

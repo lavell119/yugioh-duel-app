@@ -7,7 +7,7 @@
         "defense-points": 2150,
         "level": 6,
         "attribute": "dark",
-        "image": "beast_of_talwar.webp"
+        "image": "/images/cards/beast_of_talwar.webp"
     },
     {
         "name": "Blue Eyes White Dragon",
@@ -17,12 +17,17 @@
         "defense-points": 2500,
         "level": 8,
         "attribute": "light",
-        "image": "blue_eyes_white_dragon.webp"
+        "image": "/images/cards/blue_eyes_white_dragon.webp"
     },
     {
         "name": "Dark Hole",
         "card_type": "magic",
-        "image": "dark_hole.webp"
+        "image": "/images/cards/dark_hole.webp"
+    },
+    {
+        "name": "Trap Hole",
+        "card_type": "trap",
+        "image": "/images/cards/trap_hole.webp"
     },
     {
         "name": "Dark Magician",
@@ -32,7 +37,7 @@
         "defense-points": 2100,
         "level": 7,
         "attribute": "dark",
-        "image": "dark_magician.webp"
+        "image": "/images/cards/dark_magician.jpg"
     },
     {
         "name": "Dark Ruler Ha Des",
@@ -42,7 +47,7 @@
         "defense-points": 1600,
         "level": 6,
         "attribute": "dark",
-        "image": "dark_ruler_ha_des.webp"
+        "image": "/images/cards/dark_ruler_ha_des.webp"
     },
     {
         "name": "Mefist The Infernal General",
@@ -52,22 +57,22 @@
         "defense-points": 1700,
         "level": 5,
         "attribute": "dark",
-        "image": "mefist_the_infernal_general.webp"
+        "image": "/images/cards/mefist_the_infernal_general.webp"
     },
     {
         "name": "Mirror Force",
         "card_type": "magic",
-        "image": "mirrorforce.webp"
+        "image": "/images/cards/mirrorforce.webp"
     },
     {
         "name": "Monster Reborn",
         "card_type": "magic",
-        "image": "monster_reborn.webp"
+        "image": "/images/cards/monster_reborn.webp"
     },
     {
         "name": "Mystical Space Typhoon",
         "card_type": "magic",
-        "image": "mystical_space_typhoon.webp"
+        "image": "/images/cards/mystical_space_typhoon.webp"
     },
     {
         "name": "Red Eyes Black Dragon",
@@ -77,7 +82,12 @@
         "defense-points": 2000,
         "level": 7,
         "attribute": "dark",
-        "image": "red_eyes_black_dragon.webp"
+        "image": "/images/cards/red_eyes_black_dragon.webp"
+    },
+    {
+        "name": "Scapegoat",
+        "card_type": "magic",
+        "image": "/images/cards/mystical_space_typhoon.webp"
     }
 
 ]
