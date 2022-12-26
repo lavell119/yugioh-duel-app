@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field {
+  width: 620px;
+  height: 620px;
+  background: rgb(56, 56, 56);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.player-field-zone {
+  height: 250px;
+  width: 550px;
+  background: grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card {
+  background: red;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.field-card {
+  background:  green;
+}
+
+.monster-card {
+  background: rgb(80, 80, 80);
+}
+
+.extra-deck {
+  background: rgb(201, 201, 201);
+}
+
+.graveyard {
+  background: purple;
+}
+
+.spell-trap-card {
+  background: blue;
+}
+
+.player_2 {
+  transform: rotateZ(180deg);
+}
