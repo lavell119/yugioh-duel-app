@@ -6,7 +6,15 @@ import Cards from './deck.json'
 
 export default function AllCards() {
   console.log(Cards)
+  
+
   return (
-    <div>AllCards</div>
+    <div>
+        {Cards.map(card =>
+            <div>{card.name}</div>
+        )
+        }
+     
+    </div>
   )
 }
