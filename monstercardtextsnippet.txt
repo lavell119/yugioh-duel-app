@@ -1,0 +1,3 @@
+style={{ 
+      backgroundImage: card, backgroundSize: "contain"
+    }}

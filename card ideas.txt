@@ -1,0 +1,121 @@
+dark magician
+sangan
+dark hole
+beast of talwar
+dark ruler hades
+red eyes black dragon
+mirror force
+trap hole
+monster reborn
+dark hole
+mystical space typhoon
+scapegoat
+
+pot of greed
+mystic tomato
+summoned skull
+exodia the forbidden one
+jinzo
+magic cylinder
+buster blader
+seven tools of the bandit
+giant soldier of stone
+spellbinding circle
+dark magician girl
+
+C:\Users\levy\Desktop\Development\yugioh-duel-app\public\images\cards\beast_of_talwar.webp
+
+
+[
+    {
+        "name": "Beast of Talwar",
+        "card_type": "monster",
+        "type": "Fiend",
+        "attack-points": 2400,
+        "defense-points": 2150,
+        "level": 6,
+        "attribute": "dark",
+        "image": "beast_of_talwar.webp"
+    },
+    {
+        "name": "Blue Eyes White Dragon",
+        "card_type": "monster",
+        "type": "Dragon/Normal",
+        "attack-points": 3000,
+        "defense-points": 2500,
+        "level": 8,
+        "attribute": "light",
+        "image": "blue_eyes_white_dragon.webp"
+    },
+    {
+        "name": "Dark Hole",
+        "card_type": "magic",
+        "image": "dark_hole.webp"
+    },
+    {
+        "name": "Dark Magician",
+        "card_type": "spellcaster",
+        "type": "Dragon/Normal",
+        "attack-points": 2500,
+        "defense-points": 2100,
+        "level": 7,
+        "attribute": "dark",
+        "image": "dark_magician.webp"
+    },
+    {
+        "name": "Dark Ruler Ha Des",
+        "card_type": "fiend",
+        "type": "Fiend/Effect",
+        "attack-points": 2450,
+        "defense-points": 1600,
+        "level": 6,
+        "attribute": "dark",
+        "image": "dark_ruler_ha_des.webp"
+    },
+    {
+        "name": "Mefist The Infernal General",
+        "card_type": "fiend",
+        "type": "Fiend/Effect",
+        "attack-points": 1800,
+        "defense-points": 1700,
+        "level": 5,
+        "attribute": "dark",
+        "image": "mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Mirror Force",
+        "card_type": "magic",
+        "image": "mirrorforce.webp"
+    },
+    {
+        "name": "Monster Reborn",
+        "card_type": "magic",
+        "image": "monster_reborn.webp"
+    },
+    {
+        "name": "Mystical Space Typhoon",
+        "card_type": "magic",
+        "image": "mystical_space_typhoon.webp"
+    },
+    {
+        "name": "Red Eyes Black Dragon",
+        "card_type": "monster",
+        "type": "Dragon/Normal",
+        "attack-points": 2400,
+        "defense-points": 2000,
+        "level": 7,
+        "attribute": "dark",
+        "image": "red_eyes_black_dragon.webp"
+    },
+    {
+        "name": "Sangan",
+        "card_type": "monster",
+        "type": "Dragon/Normal",
+        "attack-points": 2400,
+        "defense-points": 2000,
+        "level": 7,
+        "attribute": "dark",
+        "image": "red_eyes_black_dragon.webp"
+    }
+
+]

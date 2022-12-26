@@ -15,7 +15,7 @@
 .field {
   width: 620px;
   height: 620px;
-  background: rgb(56, 56, 56);
+  background: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,39 +23,45 @@
   
 }
 
+.white { 
+  color: white;
+}
+
 
 .player-field-zone {
   height: 250px;
   width: 550px;
-  background: grey;
+  background: rgb(0, 0, 0);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .card {
-  background: red;
-  border: 2px solid black;
+  border: 1px solid rgb(138, 138, 138);
   margin: 5px;
+  height: 80%;
 }
 
 .field-card {
-  background:  green;
+  border-color: green;
 }
 
 .monster-card {
-  background: rgb(80, 80, 80);
 }
 
 .extra-deck {
-  background: rgb(201, 201, 201);
+  border-color: white;
 }
 
 .graveyard {
-  background: purple;
+  border-color: brown;
 }
 
 .spell-trap-card {
-  background: blue;
+}
+
+.deck {
+  border-color: gold;
 }
 
 .player_2 {

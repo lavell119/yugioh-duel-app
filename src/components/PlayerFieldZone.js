@@ -8,10 +8,11 @@ import Deck from './cards/Deck.js'
 
 export default function PlayerFieldZone(props) {
     let playerClass = props.player
+    console.log(props)
   return (
     <div className={playerClass}>
         <FieldCard />
-        <MonsterCard />
+        <MonsterCard card= {props.cards} />
         <MonsterCard />
         <MonsterCard />
         <MonsterCard />

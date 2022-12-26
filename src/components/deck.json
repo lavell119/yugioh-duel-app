@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Beast of Talwar",
+        "card_type": "monster",
+        "type": "Fiend",
+        "attack-points": 2400,
+        "defense-points": 2150,
+        "level": 6,
+        "attribute": "dark",
+        "image": "beast_of_talwar.webp"
+    },
+    {
+        "name": "Blue Eyes White Dragon",
+        "card_type": "monster",
+        "type": "Dragon/Normal",
+        "attack-points": 3000,
+        "defense-points": 2500,
+        "level": 8,
+        "attribute": "light",
+        "image": "blue_eyes_white_dragon.webp"
+    },
+    {
+        "name": "Dark Hole",
+        "card_type": "magic",
+        "image": "dark_hole.webp"
+    },
+    {
+        "name": "Dark Magician",
+        "card_type": "spellcaster",
+        "type": "Dragon/Normal",
+        "attack-points": 2500,
+        "defense-points": 2100,
+        "level": 7,
+        "attribute": "dark",
+        "image": "dark_magician.webp"
+    },
+    {
+        "name": "Dark Ruler Ha Des",
+        "card_type": "fiend",
+        "type": "Fiend/Effect",
+        "attack-points": 2450,
+        "defense-points": 1600,
+        "level": 6,
+        "attribute": "dark",
+        "image": "dark_ruler_ha_des.webp"
+    },
+    {
+        "name": "Mefist The Infernal General",
+        "card_type": "fiend",
+        "type": "Fiend/Effect",
+        "attack-points": 1800,
+        "defense-points": 1700,
+        "level": 5,
+        "attribute": "dark",
+        "image": "mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Mirror Force",
+        "card_type": "magic",
+        "image": "mirrorforce.webp"
+    },
+    {
+        "name": "Monster Reborn",
+        "card_type": "magic",
+        "image": "monster_reborn.webp"
+    },
+    {
+        "name": "Mystical Space Typhoon",
+        "card_type": "magic",
+        "image": "mystical_space_typhoon.webp"
+    },
+    {
+        "name": "Red Eyes Black Dragon",
+        "card_type": "monster",
+        "type": "Dragon/Normal",
+        "attack-points": 2400,
+        "defense-points": 2000,
+        "level": 7,
+        "attribute": "dark",
+        "image": "red_eyes_black_dragon.webp"
+    }
+
+]
