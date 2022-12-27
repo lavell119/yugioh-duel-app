@@ -41,16 +41,6 @@
         "image": "/images/cards/the_wicked_worm_beast.webp"
     },
     {
-        "name": "The Wicked Worm Beast",
-        "card_type": "monster",
-        "monster_type": ["Beast", "Effect"],
-        "attack-points": 1400,
-        "defense-points": 700,
-        "level": 3,
-        "attribute": "earth",
-        "image": "/images/cards/the_wicked_worm_beast.webp"
-    },
-    {
         "name": "Battle Ox",
         "card_type": "monster",
         "monster_type": ["Beast-Warrior", "Normal"],
@@ -119,6 +109,16 @@
         "level": 6,
         "attribute": "earth",
         "image": "/images/cards/gyakutenno_megami.webp"
+    },
+    {
+        "name": "Mystic Horseman",
+        "card_type": "monster",
+        "monster_type": ["Beast", "Normal"],
+        "attack-points": 1300,
+        "defense-points": 1550,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/mystic_horseman.webp"
     },
     {
         "name": "Terra the Terrible",
@@ -194,6 +194,216 @@
         "name": "Dark Energy",
         "card_type": "magic", 
         "image": "/images/cards/dark_energy.webp"
+    },
+    {
+        "name": "Invigoration",
+        "card_type": "magic", 
+        "image": "/images/cards/invigoration.webp"
+    },
+    {
+        "name": "Dark Hole",
+        "card_type": "magic",
+        "image": "/images/cards/dark_hole.webp"
+    },
+    {
+        "name": "Oozaki",
+        "card_type": "magic",
+        "image": "/images/cards/oozaki.webp"
+    },
+    {
+        "name": "Ryu Kishin Powered",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Normal"],
+        "attack-points": 1600,
+        "defense-points": 1200,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/ryu_kishin_powered.webp"
+    },
+    {
+        "name": "Swordstalker",
+        "card_type": "monster",
+        "monster_type": ["Warrior"],
+        "attack-points": 2000,
+        "defense-points": 1600,
+        "level": 6,
+        "attribute": "dark",
+        "image": "/images/cards/swordstalker.webp"
+    },
+    {
+        "name": "La Jinn the Mystical Genie of the Lamp",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Normal"],
+        "attack-points": 1800,
+        "defense-points": 1000,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+    },
+    {
+        "name": "Rude Kaiser",
+        "card_type": "monster",
+        "monster_type": ["Beast-Warrior"],
+        "attack-points": 1800,
+        "defense-points": 1600,
+        "level": 5,
+        "attribute": "earth",
+        "image": "/images/cards/rude_kaiser.webp"
+    },
+    {
+        "name": "Destroyer Golem",
+        "card_type": "monster",
+        "monster_type": ["Rock"],
+        "attack-points": 1500,
+        "defense-points": 1200,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/destroyer_golem.webp"
+    },
+    {
+        "name": "Skull Red Bird",
+        "card_type": "monster",
+        "monster_type": ["Winged Beast"],
+        "attack-points": 1550,
+        "defense-points": 1200,
+        "level": 4,
+        "attribute": "wind",
+        "image": "/images/cards/skull_red_bird.webp"
+    },
+    {
+        "name": "D-Human",
+        "card_type": "monster",
+        "monster_type": ["Warrior"],
+        "attack-points": 1300,
+        "defense-points": 1100,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/skull_red_bird.webp"
+    },
+    {
+        "name": "Pale Beast",
+        "card_type": "monster",
+        "monster_type": ["Beast"],
+        "attack-points": 1500,
+        "defense-points": 1200,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/pale_beast.webp"
+    },
+    {
+        "name": "Fissure",
+        "card_type": "magic",
+        "image": "/images/cards/fissure.webp"
+    },
+    {
+        "name": "Trap Hole",
+        "card_type": "trap",
+        "image": "/images/cards/trap_hole.webp"
+    },
+    {
+        "name": "Two-Pronged Attack",
+        "card_type": "trap",
+        "image": "/images/cards/two_pronged_attack.webp"
+    },
+    {
+        "name": "De-Spell",
+        "card_type": "magic",
+        "image": "/images/cards/de_spell.webp"
+    },
+    {
+        "name": "Monster Reborn",
+        "card_type": "magic",
+        "image": "/images/cards/monster_reborn.webp"
+    },
+    {
+        "name": "The Inexperienced Spy",
+        "card_type": "magic",
+        "image": "/images/cards/the_inexperienced_spy.webp"
+    },
+    {
+        "name": "Reinforcements",
+        "card_type": "trap",
+        "image": "/images/cards/reinforcements.webp"
+    },
+    {
+        "name": "Ancient Telescope",
+        "card_type": "magic",
+        "image": "/images/cards/ancient_telescope.webp"
+    },
+    {
+        "name": "Just Desserts",
+        "card_type": "trap",
+        "image": "/images/cards/just_desserts.webp"
+    },
+    {
+        "name": "Lord Of D.",
+        "card_type": "monster",
+        "monster_type": ["Spellcaster", "Effect"],
+        "attack-points": 1200,
+        "defense-points": 1100,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/lord_of_d.webp"
+    },
+    {
+        "name": "The Flute of Summoning Dragon",
+        "card_type": "magic",
+        "image": "/images/cards/flute_of_summoning_dragon.webp"
+    },
+    {
+        "name": "Mysterious Puppeteer",
+        "card_type": "monster",
+        "monster_type": ["Warrior", "Effect"],
+        "attack-points": 1000,
+        "defense-points": 1500,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/mysterious_puppeteer.webp"
+    },
+    {
+        "name": "Trap Master",
+        "card_type": "monster",
+        "monster_type": ["Warrior", "Effect"],
+        "attack-points": 500,
+        "defense-points": 1100,
+        "level": 3,
+        "attribute": "earth",
+        "image": "/images/cards/trap_master.webp"
+    },
+    {
+        "name": "Sogen",
+        "card_type": "magic",
+        "image": "/images/cards/sogen.webp"
+    },
+    {
+        "name": "Hane-Hane",
+        "card_type": "monster",
+        "monster_type": ["Beast", "Effect"],
+        "attack-points": 450,
+        "defense-points": 500,
+        "level": 2,
+        "attribute": "earth",
+        "image": "/images/cards/hane_hane.webp"
+    },
+    {
+        "name": "Reverse Trap",
+        "card_type": "trap",
+        "image": "/images/cards/reverse_trap.webp"
+    },
+    {
+        "name": "Remove Trap",
+        "card_type": "trap",
+        "image": "/images/cards/remove_trap.webp"
+    },
+    {
+        "name": "Castle Walls",
+        "card_type": "trap",
+        "image": "/images/cards/castle_walls.webp"
+    },
+    {
+        "name": "Ultimate Offering",
+        "card_type": "trap",
+        "image": "/images/cards/ultimate_offering.webp"
     }
     
 
