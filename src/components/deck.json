@@ -2,7 +2,7 @@
     {
         "name": "Beast of Talwar",
         "card_type": "monster",
-        "type": "Fiend",
+        "monster_type": "Fiend",
         "attack-points": 2400,
         "defense-points": 2150,
         "level": 6,
@@ -12,7 +12,7 @@
     {
         "name": "Blue Eyes White Dragon",
         "card_type": "monster",
-        "type": "Dragon/Normal",
+        "monster_type": "Dragon/Normal",
         "attack-points": 3000,
         "defense-points": 2500,
         "level": 8,
@@ -32,7 +32,7 @@
     {
         "name": "Dark Magician",
         "card_type": "spellcaster",
-        "type": "Dragon/Normal",
+        "monster_type": "Dragon/Normal",
         "attack-points": 2500,
         "defense-points": 2100,
         "level": 7,
@@ -42,7 +42,7 @@
     {
         "name": "Dark Ruler Ha Des",
         "card_type": "fiend",
-        "type": "Fiend/Effect",
+        "monster_type": "Fiend/Effect",
         "attack-points": 2450,
         "defense-points": 1600,
         "level": 6,
@@ -52,7 +52,7 @@
     {
         "name": "Mefist The Infernal General",
         "card_type": "fiend",
-        "type": "Fiend/Effect",
+        "monster_type": "Fiend/Effect",
         "attack-points": 1800,
         "defense-points": 1700,
         "level": 5,
@@ -61,7 +61,7 @@
     },
     {
         "name": "Mirror Force",
-        "card_type": "magic",
+        "card_type": "trap",
         "image": "/images/cards/mirrorforce.webp"
     },
     {
@@ -77,7 +77,7 @@
     {
         "name": "Red Eyes Black Dragon",
         "card_type": "monster",
-        "type": "Dragon/Normal",
+        "monster_type": "Dragon/Normal",
         "attack-points": 2400,
         "defense-points": 2000,
         "level": 7,
@@ -85,9 +85,104 @@
         "image": "/images/cards/red_eyes_black_dragon.webp"
     },
     {
-        "name": "Scapegoat",
+        "name": "Sangan",
+        "card_type": "monster",
+        "monster_type": "Fiend/Effect",
+        "attack-points": 1000,
+        "defense-points": 600,
+        "level": 3,
+        "attribute": "dark",
+        "image": "/images/cards/sangan.webp"
+    },
+    {
+        "name": "Jinzo",
+        "card_type": "monster",
+        "monster_type": "Machine/Effect",
+        "attack-points": 2400,
+        "defense-points": 1500,
+        "level": 6,
+        "attribute": "dark",
+        "image": "/images/cards/jinzo.webp"
+    },
+    {
+        "name": "Exodia the Forbidden One",
+        "card_type": "monster",
+        "monster_type": "Spellcaster/Effect",
+        "attack-points": 1000,
+        "defense-points": 1000,
+        "level": 3,
+        "attribute": "dark",
+        "image": "/images/cards/exodia_the_forbidden_one.webp"
+    },
+    {
+        "name": "Pot of Greed",
         "card_type": "magic",
-        "image": "/images/cards/mystical_space_typhoon.webp"
+        "image": "/images/cards/pot_of_greed.webp"
+    },
+    {
+        "name": "Summoned Skill",
+        "card_type": "monster",
+        "monster_type": "Fiend",
+        "attack-points": 2500,
+        "defense-points": 1200,
+        "level": 6,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "Magic Cylinder",
+        "card_type": "trap",
+        "image": "/images/cards/magic_cylinder.webp"
+    },
+    {
+        "name": "Buster Blader",
+        "card_type": "monster",
+        "monster_type": "Warrior/Effect",
+        "attack-points": 2600,
+        "defense-points": 2300,
+        "level": 7,
+        "attribute": "earth",
+        "image": "/images/cards/buster_blader.webp"
+    },
+    {
+        "name": "Seven Tools of the Bandit",
+        "card_type": "trap",
+        "image": "/images/cards/seven_tools_of_the_bandit.webp"
+    },
+    {
+        "name": "Giant Soldier of Stone",
+        "card_type": "monster",
+        "monster_type": "Rock",
+        "attack-points": 1300,
+        "defense-points": 2000,
+        "level": 3,
+        "attribute": "earth",
+        "image": "/images/cards/giant_soldier_of_stone.webp"
+    },
+    {
+        "name": "Spellbinding Circle",
+        "card_type": "trap",
+        "image": "/images/cards/spellbinding_circle.webp"
+    },
+    {
+        "name": "Dark Magician Girl",
+        "card_type": "monster",
+        "monster_type": "Spellcaster/Effect",
+        "attack-points": 2000,
+        "defense-points": 1700,
+        "level": 6,
+        "attribute": "dark",
+        "image": "/images/cards/dark_magician_girl.webp"
+    },
+    {
+        "name": "Big Shield Gardna",
+        "card_type": "monster",
+        "monster_type": "Warrior/Effect",
+        "attack-points": 100,
+        "defense-points": 2600,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/big_shield_gardna.webp"
     }
 
 ]
