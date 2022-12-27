@@ -94,3 +94,8 @@
   font-size: 13px;
   font-weight: bold;
 }
+
+.kaiba-deck {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

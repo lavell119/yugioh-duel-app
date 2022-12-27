@@ -1,0 +1,200 @@
+[
+   
+    {
+        "name": "Blue Eyes White Dragon",
+        "card_type": "monster",
+        "monster_type": ["Dragon", "Normal"],
+        "attack-points": 3000,
+        "defense-points": 2500,
+        "level": 8,
+        "attribute": "light",
+        "image": "/images/cards/blue_eyes_white_dragon.webp"
+    },
+    {
+        "name": "Hitotsu-Me Giant",
+        "card_type": "monster",
+        "monster_type": ["Beast-Warrior"],
+        "attack-points": 1200,
+        "defense-points": 1000,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/hitotsu_me_giant.webp"
+    },
+    {
+        "name": "Ryu Kinshin",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack-points": 1000,
+        "defense-points": 500,
+        "level": 3,
+        "attribute": "dark",
+        "image": "/images/cards/ryu_kinshin.webp"
+    },
+    {
+        "name": "The Wicked Worm Beast",
+        "card_type": "monster",
+        "monster_type": ["Beast", "Effect"],
+        "attack-points": 1400,
+        "defense-points": 700,
+        "level": 3,
+        "attribute": "earth",
+        "image": "/images/cards/the_wicked_worm_beast.webp"
+    },
+    {
+        "name": "The Wicked Worm Beast",
+        "card_type": "monster",
+        "monster_type": ["Beast", "Effect"],
+        "attack-points": 1400,
+        "defense-points": 700,
+        "level": 3,
+        "attribute": "earth",
+        "image": "/images/cards/the_wicked_worm_beast.webp"
+    },
+    {
+        "name": "Battle Ox",
+        "card_type": "monster",
+        "monster_type": ["Beast-Warrior", "Normal"],
+        "attack-points": 1700,
+        "defense-points": 1000,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/battle_ox.webp"
+    },
+    {
+        "name": "Koumori Dragon",
+        "card_type": "monster",
+        "monster_type": ["Dragon"],
+        "attack-points": 1500,
+        "defense-points": 1200,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/koumori_dragon.webp"
+    },
+    {
+        "name": "Judge Man",
+        "card_type": "monster",
+        "monster_type": ["Warrior", "Normal"],
+        "attack-points": 2200,
+        "defense-points": 1500,
+        "level": 6,
+        "attribute": "earth",
+        "image": "/images/cards/judge_man.webp"
+    },
+    {
+        "name": "Rogue Doll",
+        "card_type": "monster",
+        "monster_type": ["Spellcaster", "Normal"],
+        "attack-points": 1600,
+        "defense-points": 1000,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/rogue_doll.webp"
+    },
+    {
+        "name": "Kojikocy",
+        "card_type": "monster",
+        "monster_type": ["Warrior"],
+        "attack-points": 1500,
+        "defense-points": 1200,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/kojikocy.webp"
+    },
+    {
+        "name": "Uraby",
+        "card_type": "monster",
+        "monster_type": ["Dinosaur", "Normal"],
+        "attack-points": 1500,
+        "defense-points": 800,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/uraby.webp"
+    },
+    {
+        "name": "Gyakutenno Megami",
+        "card_type": "monster",
+        "monster_type": ["Fairy"],
+        "attack-points": 1800,
+        "defense-points": 2000,
+        "level": 6,
+        "attribute": "earth",
+        "image": "/images/cards/gyakutenno_megami.webp"
+    },
+    {
+        "name": "Terra the Terrible",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack-points": 1200,
+        "defense-points": 1300,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/terra_the_terrible.webp"
+    },
+    {
+        "name": "Dark Titan of Terror",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack-points": 1300,
+        "defense-points": 1100,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/dark_titan_of_terror.webp"
+    },
+    {
+        "name": "Dark Assailant",
+        "card_type": "monster",
+        "monster_type": ["Zombie"],
+        "attack-points": 1200,
+        "defense-points": 1200,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/dark_assailant.webp"
+    },
+    {
+        "name": "Master & Expert",
+        "card_type": "monster",
+        "monster_type": ["Beast"],
+        "attack-points": 1200,
+        "defense-points": 1000,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/master_expert.webp"
+    },
+    {
+        "name": "Unknown Warrior of Fiend",
+        "card_type": "monster",
+        "monster_type": ["Warrior"],
+        "attack-points": 1000,
+        "defense-points": 500,
+        "level": 3,
+        "attribute": "dark",
+        "image": "/images/cards/unknown_warrior_of_fiend.webp"
+    },
+    {
+        "name": "Mystic Clown",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack-points": 1500,
+        "defense-points": 1000,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/mystic_clown.webp"
+    },
+    {
+        "name": "Ogre of the Black Shadow",
+        "card_type": "monster",
+        "monster_type": ["Beast-Warrior"],
+        "attack-points": 1200,
+        "defense-points": 1400,
+        "level": 4,
+        "attribute": "earth",
+        "image": "/images/cards/ogre_of_the_black_shadow.webp"
+    },
+    {
+        "name": "Dark Energy",
+        "card_type": "magic", 
+        "image": "/images/cards/dark_energy.webp"
+    }
+    
+
+]
