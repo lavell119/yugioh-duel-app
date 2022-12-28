@@ -99,3 +99,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.cards-display {
+  margin: auto;
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: black;
+  color: white;
+  
+}
+
+h2 {
+  text-align: center;
+}

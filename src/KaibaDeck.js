@@ -10,7 +10,7 @@ export default function KaibaDeck() {
   return (
     <>
     <h2>Kaiba Starter Deck</h2>
-    <div className="kaiba-deck">
+    <div className="cards-display">
         {Cards.map(card =>
           <div className="card-test">
             <div class="card-title">{card.name}</div>
