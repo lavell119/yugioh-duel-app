@@ -32,8 +32,9 @@
 
 .player-field-zone {
   height: 270px;
-  width: 800px;
+  width: 750px;
   background: rgb(0, 0, 0);
+  /* background: red; */
   display: grid;
   justify-content: center;
   align-items: center;
@@ -43,7 +44,7 @@
 
 .card {
   border: 1px solid rgb(138, 138, 138);
-  height: 110px;
+  height: 120px;
   width: 85px;
   display: flex;
   align-items: center;
