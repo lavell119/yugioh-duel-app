@@ -5,11 +5,14 @@ import Graveyard from './cards/Graveyard.js'
 import ExtraDeck from './cards/ExtraDeck.js'
 import SpellTrapCard from './cards/SpellTrapCard.js'
 import Deck from './cards/Deck.js'
+import KaibaDeck from './kaiba_deck.json'
+
 
 export default function PlayerFieldZone(props) {
+    console.log(KaibaDeck)
     let playerClass = props.player
     console.log(props)
-  return (
+    return (
     <div className={playerClass}>
         <FieldCard />
         <MonsterCard card= {props.cards} />
@@ -24,7 +27,7 @@ export default function PlayerFieldZone(props) {
         <SpellTrapCard />
         <SpellTrapCard />
         <SpellTrapCard />
-        <Deck />      
+        <Deck deck={KaibaDeck}/>      
     </div>
   )
 }

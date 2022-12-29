@@ -1,17 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
 
-export default function Deck() {
-  const [deck, setDeck] = useState({
-    name: "deck",
-  })
-  if(deck){
-    console.log(deck)
-  }
+
+export default function Deck(props) {
+  const deck = props.deck
+
   return (
     
-    <div className="card deck">
-      <p className="white">{deck.name}</p>
-    </div>
+    <img src="/images/cards/la_jinn_the_mystical_genie.webp" />
   )
 }
