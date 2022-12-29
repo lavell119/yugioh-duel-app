@@ -6,7 +6,9 @@ export default function Deck(props) {
   const deck = props.deck
 
   return (
+    <div className="card">
     
-    <img src="/images/cards/la_jinn_the_mystical_genie.webp" />
+    <img style={{ height: 70, width: 50}} src="/images/cards/yugioh_back_of_card.webp" />
+    </div>
   )
 }
