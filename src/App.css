@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+}
+
+body {
   background: black;
 }
 
@@ -120,4 +124,18 @@
 
 h2 {
   text-align: center;
+}
+
+.border {
+}
+
+.hand {
+  position: absolute;
+  width: 450px;
+  height: 120px;
+  background: black;
+  background: rgb(0,0,0, .5);
+
+  border: 1px solid white;
+
 }

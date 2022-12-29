@@ -6,6 +6,7 @@ import ExtraDeck from './cards/ExtraDeck.js'
 import SpellTrapCard from './cards/SpellTrapCard.js'
 import Deck from './cards/Deck.js'
 import KaibaDeck from './kaiba_deck.json'
+import Hand from './Hand.js'
 
 
 export default function PlayerFieldZone(props) {
@@ -14,6 +15,7 @@ export default function PlayerFieldZone(props) {
     console.log(props)
     return (
     <div className={playerClass}>
+        <Hand />
         <FieldCard />
         <MonsterCard card= {props.cards} />
         <MonsterCard />
