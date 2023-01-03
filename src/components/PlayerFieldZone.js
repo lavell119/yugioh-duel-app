@@ -12,12 +12,22 @@ import { useEffect } from 'react'
 
 export default function PlayerFieldZone(props) {
   let deck=props.deck
+  let hand 
+  let monsterCards = document.querySelectorAll('.monster-card')
+  console.log(monsterCards)
+  let drawHand = () => {
+    hand = deck.slice(0,5)
+    console.log(hand)
+
+  }
+
+  drawHand()
 
     console.log(props)
     let playerClass = props.player
     return (
     <div className={playerClass}>
-        <Hand />
+        <Hand handCards={hand}/>
         <FieldCard />
         <MonsterCard card= {props.cards} />
         <MonsterCard />

@@ -1,10 +1,16 @@
 import React from 'react'
 import Card from './cards/Card.js'
 
-export default function Hand() {
+export default function Hand(props) {
+  console.log(props)
+  let handCards = props.handCards
   return (
     <div class="hand">
-        <Card card='ksdslk'/>
+      {handCards.map(card => 
+          <Card />
+
+      )}
+       
     </div>
   )
 }
