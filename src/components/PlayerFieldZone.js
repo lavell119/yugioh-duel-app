@@ -11,10 +11,10 @@ import { useEffect } from 'react'
 
 
 export default function PlayerFieldZone(props) {
+  let deck=props.deck
 
-    console.log(KaibaDeck)
-    let playerClass = props.player
     console.log(props)
+    let playerClass = props.player
     return (
     <div className={playerClass}>
         <Hand />
