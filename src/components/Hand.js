@@ -4,7 +4,7 @@ import Card from './cards/Card.js'
 export default function Hand() {
   return (
     <div class="hand">
-        <Card />
+        <Card card='ksdslk'/>
     </div>
   )
 }

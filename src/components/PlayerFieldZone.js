@@ -7,9 +7,11 @@ import SpellTrapCard from './cards/SpellTrapCard.js'
 import Deck from './cards/Deck.js'
 import KaibaDeck from './kaiba_deck.json'
 import Hand from './Hand.js'
+import { useEffect } from 'react'
 
 
 export default function PlayerFieldZone(props) {
+
     console.log(KaibaDeck)
     let playerClass = props.player
     console.log(props)
@@ -24,7 +26,7 @@ export default function PlayerFieldZone(props) {
         <MonsterCard />
         <Graveyard />
         <ExtraDeck />
-        <SpellTrapCard />
+        <SpellTrapCard card="llal"/>
         <SpellTrapCard />
         <SpellTrapCard />
         <SpellTrapCard />

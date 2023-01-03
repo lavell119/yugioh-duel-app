@@ -8,7 +8,8 @@ export default function Deck(props) {
   return (
     <div className="card">
     
-    <img style={{ height: 120, width: 85}} src="/images/cards/yugioh_back_of_card.webp" />
+      <img style={{ height: 120, width: 85}} src="/images/cards/yugioh_back_of_card.webp" />
+      
     </div>
 
   )

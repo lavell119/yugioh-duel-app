@@ -1,16 +1,23 @@
 import React from 'react'
-import { useState } from 'react'
 import Card from './Card.js'
+import { useState } from 'react'
 
 
 export default function MonsterCard(props) {
-
-  let [card, setCard] = useState(props.card)
+  let cardProp = props.card
+  const [card, setCard] = useState(cardProp)
   console.log(card)
+  if(card){
   return (
     <div className="card monster-card">
-      <Card />
+      <Card card="blue_eyes_white_dragon"/>
     </div>
   )
 }
+return (
+  <div className="card monster-card"></div>
+
+)
+}
+
 
