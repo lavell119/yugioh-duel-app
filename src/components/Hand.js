@@ -6,11 +6,11 @@ export default function Hand(props) {
   let handCards = props.handCards
   return (
     <div class="hand">
-      {handCards.map(card => 
-          <Card />
-
-      )}
-       
+      <Card card="blue_eyes_white_dragon"/>
+      <Card card="blue_eyes_white_dragon"/>
+      <Card card="blue_eyes_white_dragon"/>
     </div>
   )
 }
+
+
