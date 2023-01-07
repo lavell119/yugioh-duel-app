@@ -139,3 +139,19 @@ h2 {
   border: 1px solid white;
 
 }
+
+.card_controls {
+  background: red;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_control {
+  height: 20px;
+  width: 20px;
+  background: black;
+  border: 1px solid white;
+}
