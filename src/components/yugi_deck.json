@@ -1,0 +1,192 @@
+[
+{
+    "name": "Mystical Elf",
+    "card_type": "monster",
+    "monster_type": ["Spellcaster", "Normal"],
+    "attack-points": 800,
+    "defense-points": 2000,
+    "level": 4,
+    "attribute": "light",
+    "image": "/images/cards/mystical_elf.webp"
+},
+{
+    "name": "Feral Imp",
+    "card_type": "monster",
+    "monster_type": ["Fiend", "Normal"],
+    "attack-points": 1300,
+    "defense-points": 1400,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/feral_imp.webp"
+},
+{
+    "name": "Winged Dragon, Guardian of the Fortress",
+    "card_type": "monster",
+    "monster_type": ["Dragon"],
+    "attack-points": 1400,
+    "defense-points": 1200,
+    "level": 4,
+    "attribute": "wind",
+    "image": "/images/cards/winged_dragon_guardian_of_the_fortress.webp"
+},
+{
+    "name": "Summoned Skill",
+    "card_type": "monster",
+    "monster_type": ["Fiend"],
+    "attack-points": 2500,
+    "defense-points": 1200,
+    "level": 6,
+    "attribute": "dark",
+    "image": "/images/cards/summoned_skull.webp"
+},
+{
+    "name": "Beaver Warrior",
+    "card_type": "monster",
+    "monster_type": ["Beast-Warrior"],
+    "attack-points": 1200,
+    "defense-points": 1500,
+    "level": 4,
+    "attribute": "earth",
+    "image": "/images/cards/beaver_warrior.webp"
+},
+{
+    "name": "Dark Magician",
+    "card_type": "spellcaster",
+    "monster_type": ["Spellcaster"],
+    "attack-points": 2500,
+    "defense-points": 2100,
+    "level": 7,
+    "attribute": "dark",
+    "image": "/images/cards/dark_magician.jpg"
+},
+{
+    "name": "Gaia the Fierce Knight",
+    "card_type": "monster",
+    "monster_type": ["Warrior"],
+    "attack-points": 2300,
+    "defense-points": 2100,
+    "level": 7,
+    "attribute": "earth",
+    "image": "/images/cards/gaia_the_fierce_knight.webp"
+},
+{
+    "name": "Curse of Dragon",
+    "card_type": "monster",
+    "monster_type": ["Dragon"],
+    "attack-points": 2000,
+    "defense-points": 1500,
+    "level": 5,
+    "attribute": "dark",
+    "image": "/images/cards/curse_of_dragon.webp"
+},
+{
+    "name": "Celtic Guardian",
+    "card_type": "monster",
+    "monster_type": ["Warrior"],
+    "attack-points": 1400,
+    "defense-points": 1200,
+    "level": 4,
+    "attribute": "earth",
+    "image": "/images/cards/celtic_guardian.webp"
+},
+{
+    "name": "Mammoth Graveyard",
+    "card_type": "monster",
+    "monster_type": ["Dinosaur"],
+    "attack-points": 1200,
+    "defense-points": 800,
+    "level": 3,
+    "attribute": "earth",
+    "image": "/images/cards/mammoth_graveyard.webp"
+},
+{
+    "name": "Great White",
+    "card_type": "monster",
+    "monster_type": ["Fish", "Normal"],
+    "attack-points": 1600,
+    "defense-points": 800,
+    "level": 4,
+    "attribute": "water",
+    "image": "/images/cards/great_white.webp"
+},
+{
+    "name": "Silver Fang",
+    "card_type": "monster",
+    "monster_type": ["Beast"],
+    "attack-points": 1200,
+    "defense-points": 800,
+    "level": 3,
+    "attribute": "earth",
+    "image": "/images/cards/silver_fang.webp"
+},
+{
+    "name": "Giant Soldier of Stone",
+    "card_type": "monster",
+    "monster_type": ["Rock"],
+    "attack-points": 1300,
+    "defense-points": 2000,
+    "level": 3,
+    "attribute": "earth",
+    "image": "/images/cards/giant_soldier_of_stone.webp"
+},
+{
+    "name": "Dragon Zombie",
+    "card_type": "monster",
+    "monster_type": ["Zombie", "Normal"],
+    "attack-points": 1600,
+    "defense-points": 0,
+    "level": 3,
+    "attribute": "dark",
+    "image": "/images/cards/dragon_zombie.webp"
+},
+{
+    "name": "Doma the Angel of Silence",
+    "card_type": "monster",
+    "monster_type": ["Fairy"],
+    "attack-points": 1600,
+    "defense-points": 1400,
+    "level": 5,
+    "attribute": "dark",
+    "image": "/images/cards/doma_the_angel_of_silence.webp"
+},
+{
+    "name": "Ansatsu",
+    "card_type": "monster",
+    "monster_type": ["Warrior, Normal"],
+    "attack-points": 1700,
+    "defense-points": 1200,
+    "level": 5,
+    "attribute": "earth",
+    "image": "/images/cards/ansatsu.webp"
+},
+{
+    "name": "Witty Phantom",
+    "card_type": "monster",
+    "monster_type": ["Fiend, Normal"],
+    "attack-points": 1400,
+    "defense-points": 1300,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/witty_phantom.webp"
+},
+{
+    "name": "Claw Reacher",
+    "card_type": "monster",
+    "monster_type": ["Fiend"],
+    "attack-points": 1000,
+    "defense-points": 800,
+    "level": 3,
+    "attribute": "dark",
+    "image": "/images/cards/claw_reacher.webp"
+},
+{
+    "name": "Mystic Clown",
+    "card_type": "monster",
+    "monster_type": ["Fiend, Normal"],
+    "attack-points": 1500,
+    "defense-points": 1000,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/claw_reacher.webp"
+}
+]

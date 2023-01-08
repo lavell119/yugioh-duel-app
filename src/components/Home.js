@@ -1,0 +1,17 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import AllCards from '../AllCards'
+import KaibaDeck from '../KaibaDeck'
+import Field from './Field'
+
+export default function Home() {
+  return (
+    <div class="home_page">
+        <Link to="/">Home</Link>
+        <Link to="/allcards" element={<AllCards />}>All Cards</Link>
+        <Link to="/kaibadeck" element={<KaibaDeck />}>Kaiba Deck</Link>
+        <Link to="/field" element={<Field />}>Field</Link>
+
+    </div>
+  )
+}

@@ -1,7 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
+import $ from 'jquery'
 
 export default function Card(props) {
+
+
+
   const activeCard = props.card
   const [card, setCard] = useState(activeCard)
   if (card){

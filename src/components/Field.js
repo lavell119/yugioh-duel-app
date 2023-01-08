@@ -10,7 +10,7 @@ export default function Field() {
     <h2>Yu-Gi-Oh Duel App</h2>
     <div className ="field">
         <h2 class="white">Yu-Gi-Oh Duel App</h2>
-
+        <CardControls />
         <PlayerFieldZone player="player-field-zone player_2" deck={KaibaDeck} hand = {hand} />
         <PlayerFieldZone player="player-field-zone player_1" deck= {KaibaDeck} />
     </div>
