@@ -187,6 +187,177 @@
     "defense-points": 1000,
     "level": 4,
     "attribute": "dark",
-    "image": "/images/cards/claw_reacher.webp"
+    "image": "/images/cards/mystic_clown.webp"
+},
+{
+    "name": "Sword of Dark Destruction",
+    "card_type": "equip spell card",
+    "image": "/images/cards/sword_dark_destruction.webp"
+},
+{
+    "name": "Book of Secret Arts",
+    "card_type": "equip spell card",
+    "image": "/images/cards/book_secret_arts.webp"
+},
+{
+    "name": "Dark Hole",
+    "card_type": "magic",
+    "image": "/images/cards/dark_hole.webp"
+},
+{
+    "name": "Dian Keto The Cure Master",
+    "card_type": "magic",
+    "image": "/images/cards/dian_keto_the_cure_master.webp"
+},
+{
+    "name": "Ancient Elf",
+    "card_type": "monster",
+    "monster_type": ["Spellcaster"],
+    "attack-points": 1450,
+    "defense-points": 1200,
+    "level": 4,
+    "attribute": "light",
+    "image": "/images/cards/ancient_elf.webp"
+},
+{
+    "name": "Magical Ghost",
+    "card_type": "monster",
+    "monster_type": ["Zombie"],
+    "attack-points": 1300,
+    "defense-points": 1400,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/magical_ghost.webp"
+},
+{
+    "name": "Fissure",
+    "card_type": "magic",
+    "image": "/images/cards/fissure.webp"
+},
+{
+    "name": "Trap Hole",
+    "card_type": "trap",
+    "image": "/images/cards/trap_hole.webp"
+},
+{
+    "name": "Two-Pronged Attack",
+    "card_type": "trap",
+    "image": "/images/cards/two_pronged_attack.webp"
+},
+{
+    "name": "De-Spell",
+    "card_type": "magic",
+    "image": "/images/cards/de_spell.webp"
+},
+{
+    "name": "Monster Reborn",
+    "card_type": "magic",
+    "image": "/images/cards/monster_reborn.webp"
+},
+{
+    "name": "Reinforcements",
+    "card_type": "trap",
+    "image": "/images/cards/reinforcements.webp"
+},
+{
+    "name": "Change of Heart",
+    "card_type": "magic",
+    "image": "/images/cards/change_of_heart.webp"
+},
+{
+    "name": "The Stern Mystic",
+    "card_type": "monster",
+    "monster_type": ["Spellcaster", "Effect"],
+    "attack-points": 1500,
+    "defense-points": 1200,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/stern_mystic.webp"
+},
+{
+    "name": "Wall of Illusion",
+    "card_type": "monster",
+    "monster_type": ["Fiend", "Effect"],
+    "attack-points": 1000,
+    "defense-points": 1850,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/wall_of_illusion.webp"
+},
+{
+    "name": "Neo the Magic Swordsman",
+    "card_type": "monster",
+    "monster_type": ["Spellcaster"],
+    "attack-points": 1700,
+    "defense-points": 1000,
+    "level": 4,
+    "attribute": "light",
+    "image": "/images/cards/neo_the_magic_swordsman.webp"
+},
+{
+    "name": "Baron of the Fiend Sword",
+    "card_type": "monster",
+    "monster_type": ["Fiend"],
+    "attack-points": 1550,
+    "defense-points": 800,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/baron_fiend_sword.webp"
+},
+{
+    "name": "Man-Eating Treasure Chest",
+    "card_type": "monster",
+    "monster_type": ["Fiend"],
+    "attack-points": 1600,
+    "defense-points": 1000,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/man_eating_treasure_chest.webp"
+},
+{
+    "name": "Sorcerer of the Doomed",
+    "card_type": "monster",
+    "monster_type": ["Spellcaster"],
+    "attack-points": 1450,
+    "defense-points": 1200,
+    "level": 4,
+    "attribute": "dark",
+    "image": "/images/cards/sorcerer_of_the_doomed.webp"
+},
+{
+    "name": "Last Will",
+    "card_type": "magic",
+    "image": "/images/cards/last_will.webp"
+},
+{
+    "name": "Waboku",
+    "card_type": "trap",
+    "image": "/images/cards/waboku.webp"
+},{
+    "name": "Soul Exchange",
+    "card_type": "magic",
+    "image": "/images/cards/soul_exchange.webp"
+},
+{
+    "name": "Card Destruction",
+    "card_type": "magic",
+    "image": "/images/cards/card_destruction.webp"
+},
+{
+    "name": "Trap Master",
+    "card_type": "monster",
+    "monster_type": ["Warrior", "Effect"],
+    "attack-points": 500,
+    "defense-points": 1100,
+    "level": 3,
+    "attribute": "earth",
+    "image": "/images/cards/trap_master.webp"
+},
+{
+    "name": "Dragon Capture Jar",
+    "card_type": "trap",
+    "image": "/images/cards/dragon_capture_jar.webp"
 }
+
+
 ]

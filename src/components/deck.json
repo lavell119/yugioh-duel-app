@@ -393,6 +393,11 @@
         "name": "Remove Trap",
         "card_type": "magic",
         "image": "/images/cards/remove_trap.webp"
+    },
+    {
+        "name": "Dragon Capture Jar",
+        "card_type": "trap",
+        "image": "/images/cards/dragon_capture_jar.webp"
     }
 
 

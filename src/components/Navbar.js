@@ -11,7 +11,6 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/allcards" element={<AllCards />}>All Cards</Link>
         <Link to="/yugideck" element={<YugiDeck />}>Yugi Deck</Link>
-
         <Link to="/kaibadeck" element={<KaibaDeck />}>Kaiba Deck</Link>
         <Link to="/">Home</Link>
         <Link to="/field" element={<Field />}>Field</Link>
