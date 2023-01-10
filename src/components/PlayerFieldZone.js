@@ -14,8 +14,8 @@ export default function PlayerFieldZone(props) {
   let hando=props.hand
   let deck=props.deck
   let hand 
-  let monsterCards = document.querySelectorAll('.monster-card')
-  console.log(monsterCards)
+  // let monsterCards = document.querySelectorAll('.monster-card')
+  // console.log(monsterCards)
   let drawHand = () => {
     hand = deck.slice(0,5)
     console.log(hand)
@@ -28,12 +28,12 @@ export default function PlayerFieldZone(props) {
     let playerClass = props.player
     return (
     <div className={playerClass}>
-        <Hand handCards={hando}/>
+        {/* <Hand handCards={hando}/> */}
         <FieldCard />
         <MonsterCard card= {props.cards} />
         <MonsterCard />
         <MonsterCard />
-        <MonsterCard />
+        <MonsterCard card="sangan"/>
         <MonsterCard />
         <Graveyard />
         <ExtraDeck />

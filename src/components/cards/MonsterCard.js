@@ -5,12 +5,13 @@ import { useState } from 'react'
 
 export default function MonsterCard(props) {
   let cardProp = props.card
-  const [card, setCard] = useState(cardProp)
+  console.log(cardProp)
+  const [card, setCard] = useState(props)
   console.log(card)
-  if(card){
+  if(cardProp){
   return (
     <div className="card monster-card">
-      <Card card="blue_eyes_white_dragon"/>
+      <Card card={cardProp}/>
     </div>
   )
 }
