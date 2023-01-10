@@ -357,6 +357,41 @@
     "name": "Dragon Capture Jar",
     "card_type": "trap",
     "image": "/images/cards/dragon_capture_jar.webp"
+},
+{
+    "name": "Yami",
+    "card_type": ["magic", "field magic"],
+    "image": "/images/cards/yami.webp"
+},
+{
+    "name": "Man-Eater Bug",
+    "card_type": "monster",
+    "monster_type": ["Insect", "Effect"],
+    "attack-points": 450,
+    "defense-points": 600,
+    "level": 2,
+    "attribute": "earth",
+    "image": "/images/cards/man_eater_bug.webp"
+},
+{
+    "name": "Reverse Trap",
+    "card_type": "trap",
+    "image": "/images/cards/reverse_trap.webp"
+},
+{
+    "name": "Remove Trap",
+    "card_type": "trap",
+    "image": "/images/cards/remove_trap.webp"
+},
+{
+    "name": "Castle Walls",
+    "card_type": "trap",
+    "image": "/images/cards/castle_walls.webp"
+},
+{
+    "name": "Ultimate Offering", 
+    "card_type": "trap",
+    "image": "/images/cards/ultimate_offering.webp"
 }
 
 

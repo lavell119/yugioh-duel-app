@@ -395,9 +395,9 @@
         "image": "/images/cards/remove_trap.webp"
     },
     {
-        "name": "Dragon Capture Jar",
+        "name": "Castle Walls",
         "card_type": "trap",
-        "image": "/images/cards/dragon_capture_jar.webp"
+        "image": "/images/cards/castle_walls.webp"
     }
 
 
