@@ -18,9 +18,9 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/allcards" element={<AllCards />}></Route>
-        <Route exact path="/kaibadeck" element={<KaibaDeck />}></Route>
-        <Route exact path="/navbar" element={<Navbar />}></Route>
         <Route exact path="/yugideck" element={<YugiDeck />}></Route>
+        <Route exact path="/kaibadeck" element={<KaibaDeck />}></Route>
+        <Route exact path="/field" element={<Field />}></Route>
 
 
       </Routes>
