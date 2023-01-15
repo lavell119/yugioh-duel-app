@@ -14,7 +14,9 @@ export default function PlayerFieldZone(props) {
   console.log(props)
   let hando=props.hand
   let deck=props.deck
-  let hand 
+  let hand
+  let monsterCards = props.monsterCards
+  console.log(monsterCards)
   // let monsterCards = document.querySelectorAll('.monster-card')
   // console.log(monsterCards)
   const shuffledDeck = () => {
