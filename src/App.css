@@ -157,6 +157,16 @@ h2 {
   border: 1px solid white;
 }
 
+.white {
+  color: white;
+}
+
+.test {
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
 .home_page {
   height: 400px;
   width: 700px;
