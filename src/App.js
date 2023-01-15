@@ -22,8 +22,8 @@ function App() {
         <Route exact path="/yugideck" element={<YugiDeck />}></Route>
         <Route exact path="/kaibadeck" element={<KaibaDeck />}></Route>
         <Route exact path="/field" element={<Field />}></Route>
-        <Route exact path="/kaibadeck/:id" element={<SingleCard />}></Route>
-        <Route exact path="/yugideck/:id" element={<SingleCard />}></Route>
+        <Route exact path="/kaibadeck/:id" element={<SingleCard deck="kaiba" />}></Route>
+        <Route exact path="/yugideck/:id" element={<SingleCard deck="yugi" />}></Route>
       </Routes>
     </Router>  
     </>
