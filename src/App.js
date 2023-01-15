@@ -7,6 +7,7 @@ import CardControls from './components/cards/CardControls';
 import Home from './components/Home'
 import Navbar from './components/Navbar';
 import YugiDeck from './YugiDeck';
+import SingleCard from './SingleCard';
 
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
         <Route exact path="/yugideck" element={<YugiDeck />}></Route>
         <Route exact path="/kaibadeck" element={<KaibaDeck />}></Route>
         <Route exact path="/field" element={<Field />}></Route>
-
-
+        <Route exact path="/kaibadeck/:id" element={<SingleCard />}></Route>
+        <Route exact path="/yugideck/:id" element={<SingleCard />}></Route>
       </Routes>
     </Router>  
     </>

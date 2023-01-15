@@ -11,11 +11,27 @@ import { useEffect } from 'react'
 
 
 export default function PlayerFieldZone(props) {
+  console.log(props)
   let hando=props.hand
   let deck=props.deck
   let hand 
   // let monsterCards = document.querySelectorAll('.monster-card')
   // console.log(monsterCards)
+  const shuffledDeck = () => {
+    for (let i = 0; i < deck.length; i--) {
+      const j = Math.floor(Math.random() * (i+1))
+      const temp = deck[i]
+      deck[i] = deck[j]
+      deck[j] = temp
+      console.log(deck)
+
+    }
+    return deck
+  }
+
+
+  // shuffledDeck()
+
   let drawHand = () => {
     hand = deck.slice(0,5)
     console.log(hand)
@@ -30,18 +46,18 @@ export default function PlayerFieldZone(props) {
     <div className={playerClass}>
         {/* <Hand handCards={hando}/> */}
         <FieldCard />
-        <MonsterCard card= {props.cards} />
-        <MonsterCard />
-        <MonsterCard />
+        <MonsterCard card= "red_eyes_black_dragon" />
+        <MonsterCard card=''/>
+        <MonsterCard card=''/>
         <MonsterCard card="sangan"/>
-        <MonsterCard />
-        <Graveyard />
-        <ExtraDeck />
-        <SpellTrapCard card="llal"/>
-        <SpellTrapCard />
-        <SpellTrapCard />
-        <SpellTrapCard />
-        <SpellTrapCard />
+        <MonsterCard card=''/>
+        <Graveyard card=''/>
+        <ExtraDeck card=''/>
+        <SpellTrapCard card=''/>
+        <SpellTrapCard card=''/>
+        <SpellTrapCard card=''/>
+        <SpellTrapCard card=''/>
+        <SpellTrapCard card=''/>
         <Deck deck={KaibaDeck}/>      
     </div>
   )
