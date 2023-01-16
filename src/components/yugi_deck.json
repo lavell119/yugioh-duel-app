@@ -51,7 +51,7 @@
 },
 {
     "name": "Dark Magician",
-    "card_type": "spellcaster",
+    "card_type": "monster",
     "monster_type": ["Spellcaster"],
     "attack_points": 2500,
     "defense_points": 2100,

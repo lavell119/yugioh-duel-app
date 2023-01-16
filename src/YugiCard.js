@@ -12,6 +12,13 @@ export default function YugiCard() {
 
 
     let attackPoints = selectedCard.attack_points
+    let defensePoints = selectedCard.defense_points
+    let monsterType = selectedCard.monster_type
+    let attribute = selectedCard.attribute
+    let level = selectedCard.level
+
+
+
     console.log(attackPoints)
 
   return (
@@ -20,7 +27,16 @@ export default function YugiCard() {
         <img src={selectedCard.image} />
         <div className="card-info">
         {selectedCard.card_type==="monster" && 
-            <div class="white">Attack Points: {attackPoints}</div>
+          <>
+            <div className="monster-card-info">
+            <div class="white">Attack Points: <b>{attackPoints}</b></div>
+            <div class="white">Defense Points: <b>{defensePoints}</b></div>
+            <div class="white">Type: <b>{monsterType}</b></div>
+            <div class="white">Attribute: <b>{attribute}</b></div>
+            <div class="white">Level: <b>{level}</b></div>
+
+            </div>
+          </>
             }     
         </div>
     </div>
