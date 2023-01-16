@@ -200,3 +200,14 @@ a {
 a {
   text-decoration: none;
 }
+
+.single-card-snippet {
+  background: 300px;
+  height: 500px;
+  width: 500px;
+  background: rgb(46, 46, 46);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
