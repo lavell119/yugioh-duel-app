@@ -15,6 +15,9 @@ export default function YugiCard() {
     <div className="single-card-snippet">
         <h3 class="white">{selectedCard.name}</h3>
         <img src={selectedCard.image} />
+        <div className="card-info">
+            
+        </div>
     </div>
   )
 }

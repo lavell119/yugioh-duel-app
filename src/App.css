@@ -203,11 +203,20 @@ a {
 
 .single-card-snippet {
   background: 300px;
-  height: 500px;
+  height: 600px;
   width: 500px;
   background: rgb(46, 46, 46);
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
   flex-direction: column;
+  padding: 10px;
+}
+
+.card-info {
+  height: 90px;
+  width: 300px;
+  border: 2px solid white;
 }

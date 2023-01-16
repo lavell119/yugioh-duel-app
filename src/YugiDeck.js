@@ -16,9 +16,9 @@ export default function YugiDeck() {
         {Cards.map(card =>
           <div className="card-test">
           <div class="card-title">{Cards.indexOf(card)}</div>
-          <Link to={`/yugideck/${Cards.indexOf(card)}`}>Link</Link>
+          <div class="card-title"><Link to={`/yugideck/${Cards.indexOf(card)}`}>{card.name}</Link>
+          </div>
 
-            <div class="card-title">{card.name}</div>
             <img style={{ height: "150px", width: "100px" }}src={card.image} alt="" /> 
           </div>
         )
