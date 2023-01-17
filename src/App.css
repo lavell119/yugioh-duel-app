@@ -136,7 +136,7 @@ h2 {
   height: 120px;
   background: black;
   background: rgb(0,0,0, .5);
-
+  display: flex;
   border: 1px solid white;
 
 }

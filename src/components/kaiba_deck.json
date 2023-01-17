@@ -7,7 +7,7 @@
         "attack_points": 3000,
         "defense_points": 2500,
         "level": 8,
-        "attribute": "Light",
+        "attribute": "LIGHT",
         "image": "/images/cards/blue_eyes_white_dragon.webp"
     },
     {
@@ -17,7 +17,7 @@
         "attack_points": 1200,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/hitotsu_me_giant.webp"
     },
     {
@@ -27,7 +27,7 @@
         "attack_points": 1000,
         "defense_points": 500,
         "level": 3,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/ryu_kinshin.webp"
     },
     {
@@ -37,7 +37,7 @@
         "attack_points": 1400,
         "defense_points": 700,
         "level": 3,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/the_wicked_worm_beast.webp"
     },
     {
@@ -47,7 +47,7 @@
         "attack_points": 1700,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/battle_ox.webp"
     },
     {
@@ -57,7 +57,7 @@
         "attack_points": 1500,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/koumori_dragon.webp"
     },
     {
@@ -67,7 +67,7 @@
         "attack_points": 2200,
         "defense_points": 1500,
         "level": 6,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/judge_man.webp"
     },
     {
@@ -77,7 +77,7 @@
         "attack_points": 1600,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "LIGHT",
         "image": "/images/cards/rogue_doll.webp"
     },
     {
@@ -87,7 +87,7 @@
         "attack_points": 1500,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/kojikocy.webp"
     },
     {
@@ -97,7 +97,7 @@
         "attack_points": 1500,
         "defense_points": 800,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/uraby.webp"
     },
     {
@@ -107,7 +107,7 @@
         "attack_points": 1800,
         "defense_points": 2000,
         "level": 6,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/gyakutenno_megami.webp"
     },
     {
@@ -117,7 +117,7 @@
         "attack_points": 1300,
         "defense_points": 1550,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/mystic_horseman.webp"
     },
     {
@@ -127,7 +127,7 @@
         "attack_points": 1200,
         "defense_points": 1300,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/terra_the_terrible.webp"
     },
     {
@@ -137,7 +137,7 @@
         "attack_points": 1300,
         "defense_points": 1100,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/Dark_titan_of_terror.webp"
     },
     {
@@ -147,7 +147,7 @@
         "attack_points": 1200,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/Dark_assailant.webp"
     },
     {
@@ -157,7 +157,7 @@
         "attack_points": 1200,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/master_expert.webp"
     },
     {
@@ -167,7 +167,7 @@
         "attack_points": 1000,
         "defense_points": 500,
         "level": 3,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/unknown_warrior_of_fiend.webp"
     },
     {
@@ -177,7 +177,7 @@
         "attack_points": 1500,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/mystic_clown.webp"
     },
     {
@@ -187,7 +187,7 @@
         "attack_points": 1200,
         "defense_points": 1400,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/ogre_of_the_black_shadow.webp"
     },
     {
@@ -217,7 +217,7 @@
         "attack_points": 1600,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/ryu_kishin_powered.webp"
     },
     {
@@ -227,7 +227,7 @@
         "attack_points": 2000,
         "defense_points": 1600,
         "level": 6,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/swordstalker.webp"
     },
     {
@@ -237,7 +237,7 @@
         "attack_points": 1800,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/la_jinn_the_mystical_genie.webp"
     },
     {
@@ -247,7 +247,7 @@
         "attack_points": 1800,
         "defense_points": 1600,
         "level": 5,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/rude_kaiser.webp"
     },
     {
@@ -257,7 +257,7 @@
         "attack_points": 1500,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/destroyer_golem.webp"
     },
     {
@@ -267,7 +267,7 @@
         "attack_points": 1550,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "wind",
+        "attribute": "WIND",
         "image": "/images/cards/skull_red_bird.webp"
     },
     {
@@ -277,7 +277,7 @@
         "attack_points": 1300,
         "defense_points": 1100,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/d_human.webp"
     },
     {
@@ -287,7 +287,7 @@
         "attack_points": 1500,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/pale_beast.webp"
     },
     {
@@ -342,7 +342,7 @@
         "attack_points": 1200,
         "defense_points": 1100,
         "level": 4,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/lord_of_d.webp"
     },
     {
@@ -357,7 +357,7 @@
         "attack_points": 1000,
         "defense_points": 1500,
         "level": 4,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/mysterious_puppeteer.webp"
     },
     {
@@ -367,7 +367,7 @@
         "attack_points": 500,
         "defense_points": 1100,
         "level": 3,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/trap_master.webp"
     },
     {
@@ -382,7 +382,7 @@
         "attack_points": 450,
         "defense_points": 500,
         "level": 2,
-        "attribute": "Earth",
+        "attribute": "EARTH",
         "image": "/images/cards/hane_hane.webp"
     },
     {

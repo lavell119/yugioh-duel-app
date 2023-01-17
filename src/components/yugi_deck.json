@@ -6,7 +6,7 @@
     "attack_points": 800,
     "defense_points": 2000,
     "level": 4,
-    "attribute": "Light",
+    "attribute": "LIGHT",
     "image": "/images/cards/mystical_elf.webp"
 },
 {
@@ -16,7 +16,7 @@
     "attack_points": 1300,
     "defense_points": 1400,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/feral_imp.webp"
 },
 {
@@ -26,7 +26,7 @@
     "attack_points": 1400,
     "defense_points": 1200,
     "level": 4,
-    "attribute": "wind",
+    "attribute": "WIND",
     "image": "/images/cards/winged_dragon_guardian_of_the_fortress.webp"
 },
 {
@@ -36,7 +36,7 @@
     "attack_points": 2500,
     "defense_points": 1200,
     "level": 6,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/summoned_skull.webp"
 },
 {
@@ -46,7 +46,7 @@
     "attack_points": 1200,
     "defense_points": 1500,
     "level": 4,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/beaver_warrior.webp"
 },
 {
@@ -56,7 +56,7 @@
     "attack_points": 2500,
     "defense_points": 2100,
     "level": 7,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/Dark_magician.jpg"
 },
 {
@@ -66,7 +66,7 @@
     "attack_points": 2300,
     "defense_points": 2100,
     "level": 7,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/gaia_the_fierce_knight.webp"
 },
 {
@@ -76,7 +76,7 @@
     "attack_points": 2000,
     "defense_points": 1500,
     "level": 5,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/curse_of_dragon.webp"
 },
 {
@@ -86,7 +86,7 @@
     "attack_points": 1400,
     "defense_points": 1200,
     "level": 4,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/celtic_guardian.webp"
 },
 {
@@ -96,7 +96,7 @@
     "attack_points": 1200,
     "defense_points": 800,
     "level": 3,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/mammoth_graveyard.webp"
 },
 {
@@ -116,7 +116,7 @@
     "attack_points": 1200,
     "defense_points": 800,
     "level": 3,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/silver_fang.webp"
 },
 {
@@ -126,7 +126,7 @@
     "attack_points": 1300,
     "defense_points": 2000,
     "level": 3,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/giant_soldier_of_stone.webp"
 },
 {
@@ -136,7 +136,7 @@
     "attack_points": 1600,
     "defense_points": 0,
     "level": 3,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/dragon_zombie.webp"
 },
 {
@@ -146,7 +146,7 @@
     "attack_points": 1600,
     "defense_points": 1400,
     "level": 5,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/doma_the_angel_of_silence.webp"
 },
 {
@@ -156,7 +156,7 @@
     "attack_points": 1700,
     "defense_points": 1200,
     "level": 5,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/ansatsu.webp"
 },
 {
@@ -166,7 +166,7 @@
     "attack_points": 1400,
     "defense_points": 1300,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/witty_phantom.webp"
 },
 {
@@ -176,7 +176,7 @@
     "attack_points": 1000,
     "defense_points": 800,
     "level": 3,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/claw_reacher.webp"
 },
 {
@@ -186,7 +186,7 @@
     "attack_points": 1500,
     "defense_points": 1000,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/mystic_clown.webp"
 },
 {
@@ -216,7 +216,7 @@
     "attack_points": 1450,
     "defense_points": 1200,
     "level": 4,
-    "attribute": "Light",
+    "attribute": "LIGHT",
     "image": "/images/cards/ancient_elf.webp"
 },
 {
@@ -226,7 +226,7 @@
     "attack_points": 1300,
     "defense_points": 1400,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/magical_ghost.webp"
 },
 {
@@ -271,7 +271,7 @@
     "attack_points": 1500,
     "defense_points": 1200,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/stern_mystic.webp"
 },
 {
@@ -281,7 +281,7 @@
     "attack_points": 1000,
     "defense_points": 1850,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/wall_of_illusion.webp"
 },
 {
@@ -291,7 +291,7 @@
     "attack_points": 1700,
     "defense_points": 1000,
     "level": 4,
-    "attribute": "Light",
+    "attribute": "LIGHT",
     "image": "/images/cards/neo_the_magic_swordsman.webp"
 },
 {
@@ -301,7 +301,7 @@
     "attack_points": 1550,
     "defense_points": 800,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/baron_fiend_sword.webp"
 },
 {
@@ -311,7 +311,7 @@
     "attack_points": 1600,
     "defense_points": 1000,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/man_eating_treasure_chest.webp"
 },
 {
@@ -321,7 +321,7 @@
     "attack_points": 1450,
     "defense_points": 1200,
     "level": 4,
-    "attribute": "Dark",
+    "attribute": "DARK",
     "image": "/images/cards/sorcerer_of_the_doomed.webp"
 },
 {
@@ -350,7 +350,7 @@
     "attack_points": 500,
     "defense_points": 1100,
     "level": 3,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/trap_master.webp"
 },
 {
@@ -370,7 +370,7 @@
     "attack_points": 450,
     "defense_points": 600,
     "level": 2,
-    "attribute": "Earth",
+    "attribute": "EARTH",
     "image": "/images/cards/man_eater_bug.webp"
 },
 {

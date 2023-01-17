@@ -46,7 +46,7 @@ export default function PlayerFieldZone(props) {
     let playerClass = props.player
     return (
     <div className={playerClass}>
-        {/* <Hand handCards={hando}/> */}
+        <Hand handCards={hand}/>
         <FieldCard />
         <MonsterCard card= "red_eyes_black_dragon" />
         <MonsterCard card=''/>
