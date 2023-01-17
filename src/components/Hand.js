@@ -7,7 +7,7 @@ export default function Hand(props) {
   console.log('handcards =' +{handCards})
   return (
     <div className="hand">
-          {handCards.map(card => <div className="card white">{card.name}</div>)}
+          {handCards.map(card => <div className="card white"><img style={{height: 120}} src={card.image} /></div>)}
 
       {/* <Card card="blue_eyes_white_dragon"/>
       <Card card="blue_eyes_white_dragon"/>

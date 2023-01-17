@@ -137,6 +137,7 @@ h2 {
   background: black;
   background: rgb(0,0,0, .5);
   display: flex;
+  justify-content: space-between;
   border: 1px solid white;
 
 }
