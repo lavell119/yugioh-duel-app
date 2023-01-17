@@ -1,6 +1,7 @@
 import React from 'react'
 import PlayerFieldZone from './PlayerFieldZone'
 import KaibaDeck from './kaiba_deck.json'
+import YugiDeck from './yugi_deck.json'
 import CardControls from './cards/CardControls'
 
 export default function Field() {
@@ -27,7 +28,10 @@ console.log(swordStalker)
     <div className ="field">
         <h2 class="white">Yu-Gi-Oh Duel App</h2>
         <PlayerFieldZone player="player-field-zone player_2" deck={KaibaDeck} hand = {hand} monsterCards = {swordStalker} />
-        <PlayerFieldZone player="player-field-zone player_1" deck= {KaibaDeck} />
+        <PlayerFieldZone player="player-field-zone player_1" deck= {YugiDeck} />
+        <div className ="field-card-display">
+          <div className ="field-card-display-card"></div>
+        </div>
     </div>
     </>
   )
