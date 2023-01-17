@@ -33,16 +33,25 @@ export default function YugiCard() {
         {selectedCard.card_type==="monster" && 
           <>
             <div className="monster-card-info">
-            <div class="attribute">Attack Points: <b>{attackPoints}</b></div>
-            <div class="attribute">Type: <b>{monsterType}</b></div>
-            <div class="attribute">Defense Points: <b>{defensePoints}</b></div>
-
-            <div class="attribute">Attribute: <b>{attribute}</b></div>
-            <div class="attribute">Level: <b>{level}</b></div>
-
+            <div class="attribute"><b>Attack Points:</b>{attackPoints}</div>
+            <div class="attribute"><b>Type:</b> {monsterType}</div>
+            <div class="attribute"><b>Defense Points:</b>{defensePoints}</div>
+            <div class="attribute"><b>Attribute:</b> {attribute}</div>
+            <div class="attribute"><b>Level:</b> {level}</div>
             </div>
           </>
-            }     
+            }  
+        {selectedCard.card_type==="magic" && 
+          <>
+            <div className="monster-card-info">
+            <div class="attribute"><b>Attack Points:</b>{attackPoints}</div>
+            <div class="attribute"><b>Type:</b> {monsterType}</div>
+            <div class="attribute"><b>Defense Points:</b>{defensePoints}</div>
+            <div class="attribute"><b>Attribute:</b> {attribute}</div>
+            <div class="attribute"><b>Level:</b> {level}</div>
+            </div>
+          </>
+            }        
         </div>
     </div>
     </>
