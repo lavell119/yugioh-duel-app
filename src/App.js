@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import YugiDeck from './YugiDeck';
 import SingleCard from './SingleCard';
 import YugiCard from './YugiCard';
+import KaibaCard from './KaibaCard';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Route exact path="/yugideck" element={<YugiDeck />}></Route>
         <Route exact path="/kaibadeck" element={<KaibaDeck />}></Route>
         <Route exact path="/field" element={<Field />}></Route>
-        <Route exact path="/kaibadeck/:id" element={<SingleCard deck="kaiba" />}></Route>
+        <Route exact path="/kaibadeck/:id" element={<KaibaCard deck="kaiba" />}></Route>
         <Route exact path="/yugideck/:id" element={<YugiCard deck="yugi" />}></Route>
       </Routes>
     </Router>  
