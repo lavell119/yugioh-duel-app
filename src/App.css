@@ -243,12 +243,21 @@ a {
   bottom: 20px;
   height: 500px;
   width: 300px;
-  background: yellow;
+  background: rgb(52, 52, 52);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
 }
 
 .field-card-display-card {
+  padding-top: 20px;
   width: 200px;
-  height: 300px;
-  background: rgb(39, 39, 39);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
 
 }
