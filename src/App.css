@@ -227,4 +227,12 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 13px;
+
+}
+
+.attribute {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
 }

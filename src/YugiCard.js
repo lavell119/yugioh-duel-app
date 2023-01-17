@@ -1,6 +1,7 @@
 import React from 'react'
 import YugiDeck from './components/yugi_deck.json'
 import { useParams } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 let int = 2
 
@@ -22,6 +23,9 @@ export default function YugiCard() {
     console.log(attackPoints)
 
   return (
+    <>
+    <Link to="/yugideck"><h4 class="white">Back</h4></Link>
+
     <div className="single-card-snippet">
         <h3 class="white">{selectedCard.name}</h3>
         <img src={selectedCard.image} />
@@ -29,17 +33,19 @@ export default function YugiCard() {
         {selectedCard.card_type==="monster" && 
           <>
             <div className="monster-card-info">
-            <div class="white">Attack Points: <b>{attackPoints}</b></div>
-            <div class="white">Defense Points: <b>{defensePoints}</b></div>
-            <div class="white">Type: <b>{monsterType}</b></div>
-            <div class="white">Attribute: <b>{attribute}</b></div>
-            <div class="white">Level: <b>{level}</b></div>
+            <div class="attribute">Attack Points: <b>{attackPoints}</b></div>
+            <div class="attribute">Type: <b>{monsterType}</b></div>
+            <div class="attribute">Defense Points: <b>{defensePoints}</b></div>
+
+            <div class="attribute">Attribute: <b>{attribute}</b></div>
+            <div class="attribute">Level: <b>{level}</b></div>
 
             </div>
           </>
             }     
         </div>
     </div>
+    </>
   )
 }
 

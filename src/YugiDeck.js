@@ -11,11 +11,9 @@ export default function YugiDeck() {
   return (
     <>
     <h2>Kaiba Starter Deck</h2>
-    <Link to={"/kaibadeck"}>lllll</Link>
     <div className="cards-display">
         {Cards.map(card =>
           <div className="card-test">
-          <div class="card-title">{Cards.indexOf(card)}</div>
           <div class="card-title"><Link to={`/yugideck/${Cards.indexOf(card)}`}>{card.name}</Link>
           </div>
 
