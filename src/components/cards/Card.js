@@ -18,7 +18,7 @@ export default function Card(props) {
   if (card){
   return (
     <>
-    <img draggable="true" onDrag={()=>{console.log('920019s')}} style={{ height: 120, width: 85}} src={card.image}
+    <img class="card" draggable="true" onDrag={()=>{console.log('920019s')}} style={{ height: 120, width: 85}} src={card.image}
      />
          {hover===true && <CardControls />}
 
