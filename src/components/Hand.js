@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './cards/Card.js'
 
 export default function Hand(props) {
+  
   console.log(props)
   let handCards = props.handCards
   console.log('handcards =' +{handCards})

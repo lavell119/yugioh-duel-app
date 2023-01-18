@@ -16,8 +16,9 @@ const initState = {
         "level": 8,
         "attribute": "LIGHT",
         "image": "/images/cards/blue_eyes_white_dragon.webp"
-    }
-
+    },
+    player1Cards: playerCards,
+    playerCards2: playerCards
 
 }
 
@@ -28,7 +29,8 @@ const rootReducer = (state = initState, action) => {
          switch(action.type) {
              case "CHANGE_CARD_DISPLAY":
                  return {
-                     displayCard: action.payload
+                    ...state,
+                    displayCard: action.payload
                  }
                 
             
