@@ -1,23 +1,25 @@
-let fieldCardDisplayState = {
 
-}
 
 const initState = {
-    FieldCardDisplay: {}
+    my: 'llll'
 }
 
 
 /////--ROOTREDUCER
 
 const rootReducer = (state = initState, action) => {
-        switch(action.type) {
-            case "CHANGE_CARD_DISPLAY":
-                return {
-                    ...state,
-                    FieldCardDisplay: action.payload
-                }
-        }
-    }
+         switch(action.type) {
+             case "CHANGE_CARD_DISPLAY":
+                 return {
+                     fieldCardDisplay: action.payload
+                 }
+                
+            
+                    default: 
+                        return state
+                } 
+         }
+    
     
 
 export default rootReducer

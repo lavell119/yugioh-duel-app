@@ -1,7 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
+import {useSelector } from "react-redux"
+
 
 export default function FieldCardDisplay() {
+    let cardState=useSelector(state=>state.my)
+    console.log(cardState)
     const [displayCard, setDisplayCard] = useState({
         "name": "Blue Eyes White Dragon",
         "card_type": "monster",
@@ -14,6 +18,7 @@ export default function FieldCardDisplay() {
     })
   return (
     <div className ="field-card-display">
+        <div>{cardState}</div>
         <div className ="field-card-display-card white">{displayCard.name}
         <img style={{height: 250}}src={displayCard.image} />
         </div>

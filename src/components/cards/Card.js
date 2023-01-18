@@ -2,9 +2,11 @@ import React from 'react'
 import { useState } from 'react'
 import $ from 'jquery'
 import CardControls from './CardControls.js'
+import { useDispatch } from "react-redux"
+import {useSelector } from "react-redux"
 
 export default function Card(props) {
-
+  let dispatch = useDispatch()
 
 
   const activeCard = props.card
@@ -18,7 +20,7 @@ export default function Card(props) {
   if (card){
   return (
     <>
-    <img class="card" draggable="true" onDrag={()=>{console.log('920019s')}} style={{ height: 120, width: 85}} src={card.image}
+    <img class="card" src={card.image} onClick={()=>dispatch({ type: "CHANGE_CARD_DISPLAY", payload: card})}
      />
          {hover===true && <CardControls />}
 
