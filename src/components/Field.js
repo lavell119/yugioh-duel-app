@@ -24,9 +24,7 @@ export default function Field() {
 
   return (
     <>
-    <h2>Yu-Gi-Oh Duel App</h2>
     <div className ="field">
-        <h2 class="white">Yu-Gi-Oh Duel App</h2>
         <PlayerFieldZone player="player-field-zone player_2" deck={KaibaDeck} hand = {hand} monsterCards = {swordStalker} />
         <PlayerFieldZone player="player-field-zone player_1" deck= {YugiDeck} />
         <FieldCardDisplay />
