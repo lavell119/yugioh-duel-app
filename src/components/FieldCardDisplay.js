@@ -21,6 +21,7 @@ export default function FieldCardDisplay() {
         <div className ="field-card-display-card white">{cardState.name}
         <img style={{height: 250}}src={cardState.image} />
         </div>
+        <button>Summon</button>
     </div>
   )
 }

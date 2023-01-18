@@ -1,4 +1,10 @@
+import SpellTrapCardk from "../components/cards/SpellTrapCard"
 
+
+const playerCards = {
+    monsters: ['','','','','',''],
+    SpellTrapCards: ['','','','','','']
+}
 
 const initState = {
     displayCard: {
@@ -11,6 +17,8 @@ const initState = {
         "attribute": "LIGHT",
         "image": "/images/cards/blue_eyes_white_dragon.webp"
     }
+
+
 }
 
 
