@@ -5,9 +5,9 @@ import { useState } from 'react'
 
 export default function MonsterCard(props) {
   let cardProp = props.card
-  console.log(cardProp)
+  // console.log(cardProp)
   const [card, setCard] = useState(props)
-  console.log(card)
+  // console.log(card)
   if(cardProp){
   return (
     <div className="card monster-card">

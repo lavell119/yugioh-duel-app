@@ -22,7 +22,6 @@ export default function Field() {
     "image": "/images/cards/swordstalker.webp"
 }
 
-console.log(swordStalker)
   return (
     <>
     <h2>Yu-Gi-Oh Duel App</h2>
