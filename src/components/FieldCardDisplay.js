@@ -4,7 +4,7 @@ import {useSelector } from "react-redux"
 
 
 export default function FieldCardDisplay() {
-    let cardState=useSelector(state=>state.my)
+    let cardState=useSelector(state=>state.displayCard)
     console.log(cardState)
     const [displayCard, setDisplayCard] = useState({
         "name": "Blue Eyes White Dragon",
@@ -18,9 +18,8 @@ export default function FieldCardDisplay() {
     })
   return (
     <div className ="field-card-display">
-        <div>{cardState}</div>
-        <div className ="field-card-display-card white">{displayCard.name}
-        <img style={{height: 250}}src={displayCard.image} />
+        <div className ="field-card-display-card white">{cardState.name}
+        <img style={{height: 250}}src={cardState.image} />
         </div>
     </div>
   )
