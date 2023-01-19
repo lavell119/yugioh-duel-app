@@ -4,6 +4,7 @@ import KaibaDeck from './kaiba_deck.json'
 import YugiDeck from './yugi_deck.json'
 import CardControls from './cards/CardControls'
 import FieldCardDisplay from './FieldCardDisplay'
+import OpponentFieldZone from './OpponentFieldZone'
 
 export default function Field() {
   
@@ -25,7 +26,7 @@ export default function Field() {
   return (
     <>
     <div className ="field">
-        <PlayerFieldZone player="player-field-zone player_2" deck={KaibaDeck} hand = {hand} monsterCards = {swordStalker} />
+        <OpponentFieldZone player="player-field-zone player_2" deck={KaibaDeck} hand = {hand} monsterCards = {swordStalker} />
         <PlayerFieldZone player="player-field-zone player_1" deck= {YugiDeck} />
         <FieldCardDisplay />
     </div>
