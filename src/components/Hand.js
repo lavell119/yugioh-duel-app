@@ -29,7 +29,7 @@ export default function Hand(props) {
     <div className="hand">
           <button onClick={drawHand}>Draw</button>
           {/* {handCards.map(card => <div className="card white"><img style={{height: 120}} src={card.image} /></div>)} */}
-          {handCards.map(card => <Card card={card}/>)}
+          {handState.map(card => <Card card={card}/>)}
 
       {/* <Card card="blue_eyes_white_dragon"/>
       <Card card="blue_eyes_white_dragon"/>
