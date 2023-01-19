@@ -55,11 +55,11 @@ export default function PlayerFieldZone(props) {
         <MonsterCard card="5"/>
         <Graveyard card=''/>
         <ExtraDeck card=''/>
-        <SpellTrapCard card=''/>
-        <SpellTrapCard card=''/>
-        <SpellTrapCard card=''/>
-        <SpellTrapCard card=''/>
-        <SpellTrapCard card=''/>
+        <SpellTrapCard card='1'/>
+        <SpellTrapCard card='2'/>
+        <SpellTrapCard card='3'/>
+        <SpellTrapCard card='4'/>
+        <SpellTrapCard card='5'/>
         <Deck deck={KaibaDeck}/>      
     </div>
   )

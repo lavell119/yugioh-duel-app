@@ -19,7 +19,7 @@ const initState = {
     },
     
     monsters: [],
-    SpellTrapCards: []
+    spellTrapCards: []
 
 }
 
@@ -39,6 +39,11 @@ const rootReducer = (state = initState, action) => {
                     ...state,
                     monsters: [...state.monsters, action.payload]
                  }
+            case "SET_MAGIC_TRAP_CARD":
+                return {
+                    ...state,
+                    spellTrapCards: [...state.spellTrapCards, action.payload]
+                }
             default: 
                 return state
                 } 
