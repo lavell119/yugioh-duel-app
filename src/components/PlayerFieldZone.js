@@ -48,11 +48,11 @@ export default function PlayerFieldZone(props) {
     <div className={playerClass}>
         <Hand handCards={hand}/>
         <FieldCard />
-        <MonsterCard card= "red_eyes_black_dragon" />
-        <MonsterCard card=''/>
-        <MonsterCard card=''/>
-        <MonsterCard card="sangan"/>
-        <MonsterCard card=''/>
+        <MonsterCard card= "1" />
+        <MonsterCard card="2"/>
+        <MonsterCard card="3"/>
+        <MonsterCard card="4"/>
+        <MonsterCard card="5"/>
         <Graveyard card=''/>
         <ExtraDeck card=''/>
         <SpellTrapCard card=''/>

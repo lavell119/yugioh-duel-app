@@ -26,7 +26,7 @@ export default function Hand(props) {
   console.log('handcards =' +{handCards})
   
   return (
-    <div className="hand">
+    <div className="hand opacity">
           <button onClick={drawHand}>Draw</button>
           {/* {handCards.map(card => <div className="card white"><img style={{height: 120}} src={card.image} /></div>)} */}
           {handState.map(card => <Card card={card}/>)}

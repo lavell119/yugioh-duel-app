@@ -2,7 +2,7 @@ import SpellTrapCardk from "../components/cards/SpellTrapCard"
 
 
 const playerCards = {
-    monsters: ['','','','','',''],
+    monsters: ['l','l','','','',''],
     SpellTrapCards: ['','','','','','']
 }
 
@@ -18,7 +18,7 @@ const initState = {
         "image": "/images/cards/blue_eyes_white_dragon.webp"
     },
     player1Cards: playerCards,
-    playerCards2: playerCards
+    player2Cards: playerCards
 
 }
 
@@ -27,15 +27,18 @@ const initState = {
 
 const rootReducer = (state = initState, action) => {
          switch(action.type) {
-             case "CHANGE_CARD_DISPLAY":
+            case "CHANGE_CARD_DISPLAY":
                  return {
                     ...state,
                     displayCard: action.payload
                  }
-                
-            
-                    default: 
-                        return state
+            case "SUMMON_CARD":
+                return {
+                    ...state,
+                    // player1Cards: [...player1Cards.playerCards, action.payload]
+                }             
+            default: 
+                return state
                 } 
          }
     

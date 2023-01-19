@@ -57,7 +57,7 @@ body {
 }
 
 .card:hover {
-  border: 2px solid white;
+  border: 1px solid white;
   background: red;
 }
 
@@ -143,7 +143,7 @@ h2 {
   background: black;
   background: rgb(0,0,0, .5);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   border: 1px solid white;
 }
 
@@ -265,5 +265,21 @@ a {
   align-items: center;
   justify-content: flex-start;
   gap: 15px;
+}
 
+.hand .card {
+  opacity: .8;
+}
+
+.hand .card:hover {
+  opacity: 1;
+}
+
+.card-display-title {
+  height: 40px;
+  width: 300px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

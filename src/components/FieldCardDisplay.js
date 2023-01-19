@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
-import {useSelector } from "react-redux"
+import {useDispatch, useSelector } from "react-redux"
+import { dispatch } from 'react'
 
 
 export default function FieldCardDisplay() {
+    let dispatch = useDispatch()
     let cardState=useSelector(state=>state.displayCard)
     console.log(cardState)
     const [displayCard, setDisplayCard] = useState({
@@ -18,10 +20,14 @@ export default function FieldCardDisplay() {
     })
   return (
     <div className ="field-card-display">
-        <div className ="field-card-display-card white">{cardState.name}
-        <img style={{height: 250}}src={cardState.image} />
+        <div className ="field-card-display-card white">
+        <div className="card-display-title">
+        {cardState.name}
         </div>
-        <button>Summon</button>
+          
+        <img style={{height: 320}}src={cardState.image} />
+        </div>
+        <button onClick={dispatch({ type: "SUMMON_CARD", payload: cardState})} >Summon</button>
     </div>
   )
 }
