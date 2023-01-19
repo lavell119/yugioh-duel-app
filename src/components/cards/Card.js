@@ -20,7 +20,7 @@ export default function Card(props) {
   if (card){
   return (
     <>
-    <img class="card" src={card.image} onClick={()=>dispatch({ type: "CHANGE_CARD_DISPLAY", payload: card})}
+    <img className="card" src={card.image} onClick={()=>dispatch({ type: "CHANGE_CARD_DISPLAY", payload: card})}
      />
          {hover===true && <CardControls />}
 

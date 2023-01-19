@@ -6,10 +6,18 @@ import { useSelector } from 'react-redux'
 
 export default function MonsterCard(props) {
   let n = props.card
-  const reduxCard = useSelector(state=>state.player1Cards.monsters[n])
+  const reduxCard = useSelector(state=>state.monsters[n])
   console.log(reduxCard)
-  // console.log(cardProp)
   const [card, setCard] = useState(props)
+
+  if(reduxCard) {
+    return (
+      <div className='card monster-card'>
+        <Card card={reduxCard}/>
+      </div>
+    )
+  }
+
   // console.log(card)
 //   if(cardProp){
 //   return (

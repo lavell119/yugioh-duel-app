@@ -17,8 +17,9 @@ const initState = {
         "attribute": "LIGHT",
         "image": "/images/cards/blue_eyes_white_dragon.webp"
     },
-    player1Cards: playerCards,
-    player2Cards: playerCards
+    
+    monsters: []
+    
 
 }
 
@@ -32,11 +33,12 @@ const rootReducer = (state = initState, action) => {
                     ...state,
                     displayCard: action.payload
                  }
+               
             case "SUMMON_CARD":
-                return {
+                 return {
                     ...state,
-                    // player1Cards: [...player1Cards.playerCards, action.payload]
-                }             
+                    monsters: [...state.monsters, action.payload]
+                 }
             default: 
                 return state
                 } 
