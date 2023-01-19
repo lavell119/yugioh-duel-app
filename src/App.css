@@ -58,7 +58,6 @@ body {
 
 .card:hover {
   border: 1px solid white;
-  background: red;
 }
 
 .field-card {
@@ -283,4 +282,24 @@ a {
   justify-content: center;
   align-items: flex-start;
   text-align: center;
+}
+
+.display-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 50px;
+  width: 200px;
+  margin: 30px;
+}
+
+.display-button-container button  {
+  height: 27px;
+  width: 77px;
+  background-color: black;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
 }

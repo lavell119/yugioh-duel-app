@@ -18,8 +18,8 @@ const initState = {
         "image": "/images/cards/blue_eyes_white_dragon.webp"
     },
     
-    monsters: []
-    
+    monsters: [],
+    SpellTrapCards: []
 
 }
 
