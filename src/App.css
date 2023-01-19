@@ -276,10 +276,11 @@ a {
 }
 
 .card-display-title {
-  height: 40px;
+  height: 35px;
   width: 300px;
   padding: 0 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  text-align: center;
 }
