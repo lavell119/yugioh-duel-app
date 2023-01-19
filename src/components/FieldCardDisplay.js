@@ -27,7 +27,7 @@ export default function FieldCardDisplay() {
           
         <img style={{height: 320}}src={cardState.image} />
         </div>
-        <button onClick={dispatch({ type: "SUMMON_CARD", payload: cardState})} >Summon</button>
+        {cardState.card_type==="monster" && <button onClick={dispatch({ type: "SUMMON_CARD", payload: cardState})} >Summon</button>}
     </div>
   )
 }

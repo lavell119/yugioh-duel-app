@@ -1,7 +1,7 @@
 [
    
     {
-        "name": "Blue Eyes White Dragon",
+        "name": "Blue-Eyes White Dragon",
         "card_type": "monster",
         "monster_type": ["Dragon", "Normal"],
         "attack_points": 3000,
