@@ -1,0 +1,264 @@
+[
+    {
+        "name": "Beast of Talwar",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack-points": 2400,
+        "defense-points": 2150,
+        "level": 6,
+        "attribute": "DARK",
+        "image": "/images/cards/beast_of_talwar.webp"
+    },
+    {
+        "name": "Mefist The Infernal General",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 1800,
+        "defense-points": 1700,
+        "level": 5,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Dark Ruler Ha Des",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2450,
+        "defense-points": 1600,
+        "level": 6,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Lava Golem",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 3000,
+        "defense-points": 2500,
+        "level": 8,
+        "attribute": "FIRE",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Dark Necrofear",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2200,
+        "defense-points": 2800,
+        "level": 8,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    }
+    ,
+    {
+        "name": "Dark Necrofear",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Ritual", "Effect"],
+        "attack-points": 2700,
+        "defense-points": 1500,
+        "level": 8,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Contract with the Dark Master",
+        "card_type": "magic",
+        "image": "/images/cards/de_spell.webp"
+    },
+    {
+        "name": "Giant Orc",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2200,
+        "defense-points": 0,
+        "level": 4,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Goblin King",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 0,
+        "defense-points": 0,
+        "level": 1,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Helpoemer",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2000,
+        "defense-points": 1400,
+        "level": 5,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "Helpoemer",
+        "card_type": "fiend",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2000,
+        "defense-points": 1400,
+        "level": 5,
+        "attribute": "DARK",
+        "image": "/images/cards/mefist_the_infernal_general.webp"
+    },
+    {
+        "name": "La Jinn the Mystical Genie of the Lamp",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Normal"],
+        "attack-points": 1800,
+        "defense-points": 1000,
+        "level": 4,
+        "attribute": "DARK",
+        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+    },
+    {
+        "name": "Lesser Fiend",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Normal"],
+        "attack-points": 2100,
+        "defense-points": 1000,
+        "level": 6,
+        "attribute": "DARK",
+        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+    },
+    {
+        "name": "Mask of Darkness",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Flip", "Normal"],
+        "attack-points": 900,
+        "defense-points": 400,
+        "level": 2,
+        "attribute": "DARK",
+        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+    },
+    {
+        "name": "Reaper of the Cards",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 1380,
+        "defense-points": 1930,
+        "level": 5,
+        "attribute": "DARK",
+        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+    },
+    {
+        "name": "Sangan",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 1000,
+        "defense-points": 600,
+        "level": 3,
+        "attribute": "DARK",
+        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+    },
+    {
+        "name": "Summoned Skill",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack-points": 2500,
+        "defense-points": 1200,
+        "level": 6,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "Terrorking Archfiend",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2000,
+        "defense-points": 1500,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "Magic Cylinder",
+        "card_type": "trap",
+        "image": "/images/cards/magic_cylinder.webp"
+    },
+    {
+        "name": "Great Maju Garzett",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 0,
+        "defense-points": 0,
+        "level": 6,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "D.D. Trainer",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 100,
+        "defense-points": 2100,
+        "level": 1,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "Skull Archfiend of Lightning",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2500,
+        "defense-points": 1200,
+        "level": 6,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "Card Destruction",
+        "card_type": "magic",
+        "image": "/images/cards/magic_cylinder.webp"
+    },
+    {
+        "name": "Sakuretsu Armor",
+        "card_type": "trap",
+        "image": "/images/cards/magic_cylinder.webp"
+    },
+    {
+        "name": "Lesser Fiend",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 2100,
+        "defense-points": 1000,
+        "level": 5,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "Opticlops",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack-points": 1800,
+        "defense-points": 1700,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/summoned_skull.webp"
+    },
+    {
+        "name": "Wall of Illusion",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Effect"],
+        "attack-points": 1000,
+        "defense-points": 1850,
+        "level": 4,
+        "attribute": "dark",
+        "image": "/images/cards/wall_of_illusion.webp"
+    },
+    {
+        "name": "Monster Reborn",
+        "card_type": "magic",
+        "image": "/images/cards/monster_reborn.webp"
+    },
+    {
+        "name": "Call of the Haunted",
+        "card_type": "trap",
+        "image": "/images/cards/monster_reborn.webp"
+    }
+
+]
