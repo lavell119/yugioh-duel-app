@@ -4,6 +4,7 @@ import AllCards from '../AllCards'
 import KaibaDeck from '../KaibaDeck'
 import Field from './Field'
 import YugiDeck from  '../YugiDeck'
+import FiendDeck from '../FiendDeck'
 
 export default function Navbar() {
   return (
@@ -12,8 +13,11 @@ export default function Navbar() {
         <Link to="/allcards" element={<AllCards />}>All Cards</Link>
         <Link to="/yugideck" element={<YugiDeck />}>Yugi Deck</Link>
         <Link to="/kaibadeck" element={<KaibaDeck />}>Kaiba Deck</Link>
+        <Link to="/fienddeck" element={<FiendDeck />}>Fiend Deck</Link>
+
         <Link to="/">Home</Link>
         <Link to="/field" element={<Field />}>Field</Link>
+
     </div>
   )
 }

@@ -191,7 +191,7 @@ a {
 }
 
 .navbar {
-  width: 400px;
+  width: 500px;
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -303,3 +303,4 @@ a {
   border: 1px solid white;
   cursor: pointer;
 }
+
