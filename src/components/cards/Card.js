@@ -7,6 +7,7 @@ import {useSelector } from "react-redux"
 
 export default function Card(props) {
   let status =props.status
+  console.log(props)
   let dispatch = useDispatch()
 
 
@@ -29,6 +30,8 @@ export default function Card(props) {
     </>
   )
 }
+
+
 }
 
 

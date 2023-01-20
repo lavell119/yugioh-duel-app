@@ -10,6 +10,9 @@ export default function SpellTrapCardk(props) {
   const reduxCard = useSelector(state=>state.spellTrapCards[n])
   console.log(reduxCard)
   const [card, setCard] = useState(props)
+  if(reduxCard===true){
+    console.log('akejfjk')
+  }
 
   // if(reduxCard) {
   //   return (
@@ -21,7 +24,10 @@ export default function SpellTrapCardk(props) {
 
   return (
     <div className="card spell-trap-card">
-      {reduxCard && <Card status="set-magic" card={reduxCard}/>}
+            {(reduxCard && reduxCard.set)&& <Card status="set" card={reduxCard}/>}
+
+      {(reduxCard &&reduxCard.set===false)&& <Card status="active" card={reduxCard}/>}
+
     </div>
   )
   
