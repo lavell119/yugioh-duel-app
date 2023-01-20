@@ -73,7 +73,7 @@
         "defense-points": 0,
         "level": 4,
         "attribute": "DARK",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
+        "image": "/images/cards/giant_orc.webp"
     },
     {
         "name": "Goblin King",
@@ -83,7 +83,7 @@
         "defense-points": 0,
         "level": 1,
         "attribute": "DARK",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
+        "image": "/images/cards/goblin_king.webp"
     },
     {
         "name": "Helpoemer",
@@ -93,18 +93,9 @@
         "defense-points": 1400,
         "level": 5,
         "attribute": "DARK",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
+        "image": "/images/cards/helpoemer.webp"
     },
-    {
-        "name": "Helpoemer",
-        "card_type": "fiend",
-        "monster_type": ["Fiend", "Effect"],
-        "attack-points": 2000,
-        "defense-points": 1400,
-        "level": 5,
-        "attribute": "DARK",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
-    },
+    
     {
         "name": "La Jinn the Mystical Genie of the Lamp",
         "card_type": "monster",
@@ -123,7 +114,7 @@
         "defense-points": 1000,
         "level": 6,
         "attribute": "DARK",
-        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+        "image": "/images/cards/lesser_fiend.webp"
     },
     {
         "name": "Mask of Darkness",
@@ -133,7 +124,7 @@
         "defense-points": 400,
         "level": 2,
         "attribute": "DARK",
-        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+        "image": "/images/cards/mask_of_darkness.webp"
     },
     {
         "name": "Reaper of the Cards",
@@ -143,7 +134,7 @@
         "defense-points": 1930,
         "level": 5,
         "attribute": "DARK",
-        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+        "image": "/images/cards/reaper_of_the_cards.webp"
     },
     {
         "name": "Sangan",
@@ -153,7 +144,7 @@
         "defense-points": 600,
         "level": 3,
         "attribute": "DARK",
-        "image": "/images/cards/la_jinn_the_mystical_genie.webp"
+        "image": "/images/cards/sangan.webp"
     },
     {
         "name": "Summoned Skill",
@@ -173,7 +164,7 @@
         "defense-points": 1500,
         "level": 4,
         "attribute": "dark",
-        "image": "/images/cards/summoned_skull.webp"
+        "image": "/images/cards/terrorking_archfiend.webp"
     },
     {
         "name": "Magic Cylinder",
@@ -188,7 +179,7 @@
         "defense-points": 0,
         "level": 6,
         "attribute": "dark",
-        "image": "/images/cards/summoned_skull.webp"
+        "image": "/images/cards/great_maju_garzett.webp"
     },
     {
         "name": "D.D. Trainer",
@@ -198,7 +189,7 @@
         "defense-points": 2100,
         "level": 1,
         "attribute": "dark",
-        "image": "/images/cards/summoned_skull.webp"
+        "image": "/images/cards/dd_trainer.webp"
     },
     {
         "name": "Skull Archfiend of Lightning",
@@ -208,28 +199,19 @@
         "defense-points": 1200,
         "level": 6,
         "attribute": "dark",
-        "image": "/images/cards/summoned_skull.webp"
+        "image": "/images/cards/skull_archfiend_of_lightning.webp"
     },
     {
         "name": "Card Destruction",
         "card_type": "magic",
-        "image": "/images/cards/magic_cylinder.webp"
+        "image": "/images/cards/card_destruction.webp"
     },
     {
         "name": "Sakuretsu Armor",
         "card_type": "trap",
-        "image": "/images/cards/magic_cylinder.webp"
+        "image": "/images/cards/sakuretsu_armor.webp"
     },
-    {
-        "name": "Lesser Fiend",
-        "card_type": "monster",
-        "monster_type": ["Fiend", "Effect"],
-        "attack-points": 2100,
-        "defense-points": 1000,
-        "level": 5,
-        "attribute": "dark",
-        "image": "/images/cards/summoned_skull.webp"
-    },
+   
     {
         "name": "Opticlops",
         "card_type": "monster",
@@ -238,7 +220,7 @@
         "defense-points": 1700,
         "level": 4,
         "attribute": "dark",
-        "image": "/images/cards/summoned_skull.webp"
+        "image": "/images/cards/opticlops.webp"
     },
     {
         "name": "Wall of Illusion",
@@ -258,7 +240,7 @@
     {
         "name": "Call of the Haunted",
         "card_type": "trap",
-        "image": "/images/cards/monster_reborn.webp"
+        "image": "/images/cards/call_of_the_haunted.webp"
     }
 
 ]
