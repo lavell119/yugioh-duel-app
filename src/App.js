@@ -12,6 +12,7 @@ import YugiCard from './YugiCard';
 import KaibaCard from './KaibaCard';
 import DeckDraw from './components/DeckDraw';
 import FiendDeck from './FiendDeck';
+import FiendCard from './FiendCard';
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         <Route exact path="/yugideck/:id" element={<YugiCard deck="yugi" />}></Route>
         <Route exact path="/deckdraw" element={<DeckDraw />}></Route>
         <Route exact path="/fienddeck" element={<FiendDeck />}></Route>
+        <Route exact path="/fienddeck/:id" element={<FiendCard />}></Route> 
+
       </Routes>
     </Router>  
     </>
