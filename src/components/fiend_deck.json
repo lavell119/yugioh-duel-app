@@ -27,7 +27,7 @@
         "defense-points": 1600,
         "level": 6,
         "attribute": "DARK",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
+        "image": "/images/cards/dark_ruler_ha_des.webp"
     },
     {
         "name": "Lava Golem",
@@ -37,7 +37,7 @@
         "defense-points": 2500,
         "level": 8,
         "attribute": "FIRE",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
+        "image": "/images/cards/lava_golem.webp"
     },
     {
         "name": "Dark Necrofear",
@@ -47,23 +47,23 @@
         "defense-points": 2800,
         "level": 8,
         "attribute": "DARK",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
+        "image": "/images/cards/dark_necrofear.webp"
     }
     ,
     {
-        "name": "Dark Necrofear",
+        "name": "Dark Master Zorc",
         "card_type": "fiend",
         "monster_type": ["Fiend", "Ritual", "Effect"],
         "attack-points": 2700,
         "defense-points": 1500,
         "level": 8,
         "attribute": "DARK",
-        "image": "/images/cards/mefist_the_infernal_general.webp"
+        "image": "/images/cards/dark_master_zorc.webp"
     },
     {
         "name": "Contract with the Dark Master",
         "card_type": "magic",
-        "image": "/images/cards/de_spell.webp"
+        "image": "/images/cards/contract_with_the_dark_master.webp"
     },
     {
         "name": "Giant Orc",
