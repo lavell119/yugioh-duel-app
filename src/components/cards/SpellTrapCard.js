@@ -11,13 +11,19 @@ export default function SpellTrapCardk(props) {
   console.log(reduxCard)
   const [card, setCard] = useState(props)
 
-  if(reduxCard) {
-    return (
-      <div className='card monster-card'>
-        <Card card={reduxCard}/>
-      </div>
-    )
-  }
+  // if(reduxCard) {
+  //   return (
+  //     <div className='card monster-card'>
+  //       <Card status="set-magic" card={reduxCard}/>
+  //     </div> 
+  //   )
+  // }
+
+  return (
+    <div className="card spell-trap-card">
+      {reduxCard && <Card status="set-magic" card={reduxCard}/>}
+    </div>
+  )
   
   // if(card){
   // return (

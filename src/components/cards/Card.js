@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux"
 import {useSelector } from "react-redux"
 
 export default function Card(props) {
+  let status =props.status
   let dispatch = useDispatch()
 
 
@@ -17,6 +18,7 @@ export default function Card(props) {
     setHover(true)
     console.log('hovering')
   }
+  
   if (card){
   return (
     <>
