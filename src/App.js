@@ -32,7 +32,6 @@ function App() {
         <Route exact path="/deckdraw" element={<DeckDraw />}></Route>
         <Route exact path="/fienddeck" element={<FiendDeck />}></Route>
         <Route exact path="/fienddeck/:id" element={<FiendCard />}></Route> 
-
       </Routes>
     </Router>  
     </>

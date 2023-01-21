@@ -67,7 +67,7 @@
     },
     {
         "name": "Giant Orc",
-        "card_type": "fiend",
+        "card_type": "monster",
         "monster_type": ["Fiend", "Effect"],
         "attack_points": 2200,
         "defense_points": 0,

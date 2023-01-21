@@ -9,13 +9,17 @@ export default function Home() {
   return (
 
     <div class="home_page">
-      <img class="logo" src={"/images/yugioh-logo.png"} style={{height: '150px'} }/>
-        <Link to="/">Home</Link>
-        <Link to="/allcards" element={<AllCards />}>All Cards</Link>
-        <Link to="/yugideck" element={<YugiDeck />}>Yugi Deck</Link>
-        <Link to="/kaibadeck" element={<KaibaDeck />}>Kaiba Deck</Link>
-        <Link to="/field" element={<Field />}>Field</Link>
-
+      <div className="home_title">
+      <img class="logo" src={"/images/yugioh-logo.png"} style={{height: '100px'} }/>
+      <h3>Duel App</h3>
+      </div>
+        <div class="home_nav">
+          <Link to="/">Home</Link>
+          <Link to="/allcards" element={<AllCards />}>All Cards</Link>
+          <Link to="/yugideck" element={<YugiDeck />}>Yugi Deck</Link>
+          <Link to="/kaibadeck" element={<KaibaDeck />}>Kaiba Deck</Link>
+          <Link to="/field" element={<Field />}>Field</Link>
+        </div>
     </div>
   )
 }
