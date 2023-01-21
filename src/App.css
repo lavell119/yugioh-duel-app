@@ -295,12 +295,30 @@ a {
 }
 
 .display-button-container button  {
-  height: 27px;
+  height: 33px;
   width: 77px;
   background-color: black;
-  border-radius: 2px;
+  border-radius: 1px;
   color: white;
   border: 1px solid white;
   cursor: pointer;
 }
 
+.start_game {
+  margin: auto;
+  background: rgb(46, 46, 46);
+  height: 300px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#start_game_btn {
+  height: 80px;
+  width: 200px;
+  background: grey;
+  font-size: 19px;
+  cursor: pointer;
+}

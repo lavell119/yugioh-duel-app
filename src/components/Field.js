@@ -23,7 +23,7 @@ export default function Field() {
     "attribute": "dark",
     "image": "/images/cards/swordstalker.webp"
 }
-
+  if(gameRunning){
   return (
     <>
     <div className="field">
@@ -32,5 +32,12 @@ export default function Field() {
         <FieldCardDisplay />
     </div>
     </>
-  )
+  )}
+    return (
+      <div className="start_game">
+        <button id ="start_game_btn">New Game</button>
+      </div>
+    )
 }
+
+
