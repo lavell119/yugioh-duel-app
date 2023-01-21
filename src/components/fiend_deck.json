@@ -153,8 +153,8 @@
         "attack_points": 2500,
         "defense_points": 1200,
         "level": 6,
-        "attribute": "dark",
-        "image": "/images/cards/summoned_skull.webp"
+        "attribute": "DARK",
+        "image": "/images/cards/summoned_skull.jpg"
     },
     {
         "name": "Terrorking Archfiend",
@@ -163,7 +163,7 @@
         "attack_points": 2000,
         "defense_points": 1500,
         "level": 4,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/terrorking_archfiend.webp"
     },
     {
@@ -178,7 +178,7 @@
         "attack_points": 0,
         "defense_points": 0,
         "level": 6,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/great_maju_garzett.webp"
     },
     {
@@ -188,7 +188,7 @@
         "attack_points": 100,
         "defense_points": 2100,
         "level": 1,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/dd_trainer.webp"
     },
     {
@@ -198,7 +198,7 @@
         "attack_points": 2500,
         "defense_points": 1200,
         "level": 6,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/skull_archfiend_of_lightning.webp"
     },
     {
@@ -219,7 +219,7 @@
         "attack_points": 1800,
         "defense_points": 1700,
         "level": 4,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/opticlops.webp"
     },
     {
@@ -229,7 +229,7 @@
         "attack_points": 1000,
         "defense_points": 1850,
         "level": 4,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/wall_of_illusion.webp"
     },
     {
@@ -254,7 +254,7 @@
         "attack_points": 200,
         "defense_points": 500,
         "level": 3,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/night_assailant.webp"
     },
     {

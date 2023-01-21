@@ -28,7 +28,7 @@ export default function FiendCard() {
 
     <div className="single-card-snippet">
         <h3 class="white">{selectedCard.name}</h3>
-        <img src={selectedCard.image} />
+        <img style={{height: 420}} src={selectedCard.image} />
         <div className="card-info">
         {selectedCard.card_type==="monster" && 
           <>
