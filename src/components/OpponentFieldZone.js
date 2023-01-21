@@ -46,7 +46,6 @@ export default function OpponentFieldZone(props) {
     let playerClass = props.player
     return (
     <div className={playerClass}>
-        <Hand handCards={hand}/>
         <FieldCard />
         <MonsterCard card= '' />
         <MonsterCard card=""/>

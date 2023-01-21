@@ -19,7 +19,10 @@ const initState = {
     },
     
     monsters: [],
-    spellTrapCards: []
+    spellTrapCards: [],
+    gamestate: {
+        game_running: false
+    }
 
 }
 
