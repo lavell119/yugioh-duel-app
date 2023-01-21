@@ -6,6 +6,7 @@ import ExtraDeck from './cards/ExtraDeck.js'
 import SpellTrapCard from './cards/SpellTrapCard.js'
 import Deck from './cards/Deck.js'
 import KaibaDeck from './kaiba_deck.json'
+import FiendDeck from './fiend_deck.json'
 import Hand from './Hand.js'
 import { useEffect } from 'react'
 
@@ -60,7 +61,7 @@ export default function PlayerFieldZone(props) {
         <SpellTrapCard card='3'/>
         <SpellTrapCard card='4'/>
         <SpellTrapCard card='5'/>
-        <Deck deck={KaibaDeck}/>      
+        <Deck deck={FiendDeck}/>      
     </div>
   )
 }

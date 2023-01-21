@@ -6,6 +6,15 @@ const playerCards = {
     SpellTrapCards: ['','','','','','']
 }
 
+const turnPhases =[
+    "Draw Phase",
+    "Standby Phase",
+    "Main Phase 1",
+    "Battle Phase",
+    "Main Phase 2",
+    "End Phase"
+]
+
 const initState = {
     displayCard: {
         "name": "Blue Eyes White Dragon",
@@ -21,7 +30,8 @@ const initState = {
     monsters: [],
     spellTrapCards: [],
     gamestate: {
-        game_running: false
+        game_running: false,
+        phase: turnPhases[0]
     }
 
 }
@@ -47,6 +57,19 @@ const rootReducer = (state = initState, action) => {
                     ...state,
                     spellTrapCards: [...state.spellTrapCards, {...action.payload, set:true}]
                 }
+            case "SET_MAGIC_TRAP_CARD":
+                return {
+                    ...state,
+                    spellTrapCards: [...state.spellTrapCards, {...action.payload, set:true}]
+                }
+            case "START_GAME":
+                return {
+                    ...state,
+                    gamestate: {
+                        game_running: true
+                    }
+                    }
+                
             default: 
                 return state
                 } 

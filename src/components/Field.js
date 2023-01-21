@@ -6,8 +6,12 @@ import CardControls from './cards/CardControls'
 import FieldCardDisplay from './FieldCardDisplay'
 import OpponentFieldZone from './OpponentFieldZone'
 import { useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
+import FiendDeck from './fiend_deck.json'
+
 
 export default function Field() {
+  let dispatch = useDispatch()
   const gameRunning = useSelector(state=>state.gamestate.game_running)
   console.log(gameRunning)
   let randomCard=Math.floor(Math.random()*10)
@@ -28,14 +32,14 @@ export default function Field() {
     <>
     <div className="field">
         <OpponentFieldZone player="player-field-zone player_2" deck={KaibaDeck} hand = {hand} monsterCards = {swordStalker} />
-        <PlayerFieldZone player="player-field-zone player_1" deck= {YugiDeck} />
+        <PlayerFieldZone player="player-field-zone player_1" deck= {FiendDeck} />
         <FieldCardDisplay />
     </div>
     </>
   )}
     return (
       <div className="start_game">
-        <button id ="start_game_btn">New Game</button>
+        <button id ="start_game_btn" onClick={()=>dispatch({ type: "START_GAME" }) }>New Game</button>
       </div>
     )
 }

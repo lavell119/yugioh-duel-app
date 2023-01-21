@@ -241,6 +241,11 @@
         "name": "Call of the Haunted",
         "card_type": "trap",
         "image": "/images/cards/call_of_the_haunted.webp"
+    },
+    {
+        "name": "Dark Hole",
+        "card_type": "magic",
+        "image": "/images/cards/dark_hole.webp"
     }
 
 ]
