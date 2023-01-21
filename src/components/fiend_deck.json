@@ -246,6 +246,31 @@
         "name": "Dark Hole",
         "card_type": "magic",
         "image": "/images/cards/dark_hole.webp"
+    },
+    {
+        "name": "Night Assailant",
+        "card_type": "monster",
+        "monster_type": ["Fiend", "Flip", "Effect"],
+        "attack_points": 200,
+        "defense_points": 500,
+        "level": 3,
+        "attribute": "dark",
+        "image": "/images/cards/night_assailant.webp"
+    },
+    {
+        "name": "Swords of Revealing Light",
+        "card_type": "magic",
+        "image": "/images/cards/swords_of_revealing_light.webp"
+    },
+    {
+        "name": "Nightmare Wheel",
+        "card_type": "trap",
+        "image": "/images/cards/nightmare_wheel.webp"
+    },
+    {
+        "name": "Graceful Charity",
+        "card_type": "trap",
+        "image": "/images/cards/graceful_charity.webp"
     }
 
 ]
