@@ -16,6 +16,14 @@ const turnPhases =[
 ]
 
 const initState = {
+    turnPhases: [
+        "Draw Phase",
+        "Standby Phase",
+        "Main Phase 1",
+        "Battle Phase",
+        "Main Phase 2",
+        "End Phase"
+    ],
     displayCard: {
         "name": "Blue Eyes White Dragon",
         "card_type": "monster",
@@ -29,9 +37,10 @@ const initState = {
     
     monsters: [],
     spellTrapCards: [],
+    gamestate_test: 'yes',
     gamestate: {
         game_running: false,
-        phase: turnPhases[0]
+        phase: turnPhases[3]
     }
 
 }
@@ -69,6 +78,14 @@ const rootReducer = (state = initState, action) => {
                         game_running: true
                     }
                     }
+            case "INCREMENT_PHASE":
+                return {
+                    ...state,
+                    gamestate: {
+                        phase: turnPhases[2]
+                    }
+                    }
+            
                 
             default: 
                 return state

@@ -10,10 +10,14 @@ import FiendDeck from './fiend_deck.json'
 import Hand from './Hand.js'
 import { useState, useEffect } from 'react'
 import LifePoints from './LifePoints.js'
+import { useSelector } from 'react-redux'
 
 
 export default function PlayerFieldZone(props) {
 
+  const phaseTester = useSelector(state=>state.gamestate.phase)
+  console.log('phaseTester:' + phaseTester)
+  
   const [phase, setPhase] = useState('battle')
   console.log(props)
   let hando=props.hand
@@ -51,6 +55,9 @@ export default function PlayerFieldZone(props) {
     return (
     
     <div className={playerClass}>
+        <div className="phase_tester white">p=
+          {phaseTester}
+        </div>
         { phase==="draw" && <div class="phase-test white">Draw Phase</div>}
         { phase==="standby" && <div class="phase-test white">Standby Phase</div>}
         { phase==="main" && <div class="phase-test white">Main Phase 1</div>}
