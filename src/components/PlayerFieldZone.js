@@ -9,6 +9,7 @@ import KaibaDeck from './kaiba_deck.json'
 import FiendDeck from './fiend_deck.json'
 import Hand from './Hand.js'
 import { useEffect } from 'react'
+import LifePoints from './LifePoints.js'
 
 
 export default function PlayerFieldZone(props) {
@@ -47,6 +48,7 @@ export default function PlayerFieldZone(props) {
     let playerClass = props.player
     return (
     <div className={playerClass}>
+        <LifePoints />
         <Hand handCards={hand}/>
         <FieldCard />
         <MonsterCard card= "1" />

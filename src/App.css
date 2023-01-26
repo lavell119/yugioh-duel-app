@@ -331,7 +331,6 @@ a {
   height: 220px;
   width: 150px;
   justify-content: space-between;
-  border: 1px solid grey;
   padding: 10px;
   text-align: center;
 }
@@ -342,4 +341,11 @@ a {
 }
 
 .logo {
+}
+
+.lifepoints {
+  position: absolute;
+  left: 100px;
+  border: 1px solid white;
+  padding: 11px;
 }
