@@ -8,11 +8,13 @@ import Deck from './cards/Deck.js'
 import KaibaDeck from './kaiba_deck.json'
 import FiendDeck from './fiend_deck.json'
 import Hand from './Hand.js'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import LifePoints from './LifePoints.js'
 
 
 export default function PlayerFieldZone(props) {
+
+  const [phase, setPhase] = useState('battle')
   console.log(props)
   let hando=props.hand
   let deck=props.deck
@@ -47,7 +49,14 @@ export default function PlayerFieldZone(props) {
     console.log(props)
     let playerClass = props.player
     return (
+    
     <div className={playerClass}>
+        { phase==="draw" && <div class="phase-test white">Draw Phase</div>}
+        { phase==="standby" && <div class="phase-test white">Standby Phase</div>}
+        { phase==="main" && <div class="phase-test white">Main Phase 1</div>}
+        { phase==="battle" && <div class="phase-test white">Battle Phase</div>}
+        { phase==="main_2" && <div class="phase-test white">Main Phase Phase 2</div>}
+        { phase==="end" && <div class="phase-test white">End Phase</div>}
         <LifePoints />
         <Hand handCards={hand}/>
         <FieldCard />
