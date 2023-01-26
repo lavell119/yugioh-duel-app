@@ -64,7 +64,6 @@ body {
 }
 
 .monster-card {
-  border: 2px solid green;
 }
 
 .extra-deck {
@@ -354,4 +353,14 @@ a {
   position: absolute;
   left: 100px;
   bottom: 100px;
+}
+
+.card-zone {
+  height: 130px;
+  width: 100px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(44, 44, 44);
 }

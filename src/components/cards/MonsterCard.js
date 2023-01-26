@@ -12,7 +12,7 @@ export default function MonsterCard(props) {
 
   if(reduxCard) {
     return (
-      <div className='card monster-card'>
+      <div className='card-zone monster-card'>
         <Card card={reduxCard}/>
       </div>
     )
@@ -27,7 +27,7 @@ export default function MonsterCard(props) {
 //   )
 // }
 return (
-  <div className="card monster-card"></div>
+  <div className="card-zone monster-card"></div>
 
 )
 }

@@ -6,7 +6,6 @@ import { useSelector } from 'react-redux'
 
 export default function SpellTrapCardk(props) {
 
-  const [setOrSummon, setSetOrSummon] = useState("summon")
 
   let n = props.card
   const reduxCard = useSelector(state=>state.spellTrapCards[n])
@@ -25,7 +24,7 @@ export default function SpellTrapCardk(props) {
   // }
 
   return (
-    <div className="card spell-trap-card">
+    <div className="card-zone spell-trap-card">
             {(reduxCard && reduxCard.set)&& <Card status="set" card={reduxCard}/>}
 
       {(reduxCard &&reduxCard.set===false)&& <Card status="active" card={reduxCard}/>}
@@ -41,7 +40,7 @@ export default function SpellTrapCardk(props) {
   // )
 // }
 return (
-  <div className="card spell-trap-card"></div>
+  <div className="card-zone spell-trap-card"></div>
 )
 }
 
