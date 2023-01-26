@@ -6,6 +6,8 @@ import { useSelector } from 'react-redux'
 
 export default function SpellTrapCardk(props) {
 
+  const [setOrSummon, setSetOrSummon] = useState("summon")
+
   let n = props.card
   const reduxCard = useSelector(state=>state.spellTrapCards[n])
   console.log(reduxCard)

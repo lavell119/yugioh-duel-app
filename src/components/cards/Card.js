@@ -8,12 +8,26 @@ import {useSelector } from "react-redux"
 export default function Card(props) {
   let status =props.status
   console.log(props)
+  let cardImage
+  const activeCard = props.card
+  const [cardSet, setCardSet] = useState(true)
+  const [card, setCard] = useState(activeCard)
+  const [hover, setHover] = useState(false)
+
+  if (card){
+  if(status!=='set'){
+    cardImage=card.image
+  } else {
+    cardImage = "/images/cards/yugioh_back_of_card.webp"
+  }
+
+}
+
+  
   let dispatch = useDispatch()
 
 
-  const activeCard = props.card
-  const [card, setCard] = useState(activeCard)
-  const [hover, setHover] = useState(false)
+  
 
   function mouseOver(e){
     setHover(true)
@@ -23,7 +37,7 @@ export default function Card(props) {
   if (card){
   return (
     <>
-    <img className="card" src={card.image} onClick={()=>dispatch({ type: "CHANGE_CARD_DISPLAY", payload: card})}
+    <img className="card" src={cardImage} onClick={()=>dispatch({ type: "CHANGE_CARD_DISPLAY", payload: card})}
      />
          {hover===true && <CardControls />}
 
