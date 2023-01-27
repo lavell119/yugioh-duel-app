@@ -1,12 +1,13 @@
 import SpellTrapCardk from "../components/cards/SpellTrapCard"
 
+const index = 0
 
 const playerCards = {
     monsters: ['l','l','','','',''],
     SpellTrapCards: ['','','','','','']
 }
 
-const turnPhases =[
+const turn =[
     "Draw Phase",
     "Standby Phase",
     "Main Phase 1",
@@ -15,7 +16,10 @@ const turnPhases =[
     "End Phase"
 ]
 
+
+//INITIAL STATE
 const initState = {
+    phaseIndex: index,
     turnPhases: [
         "Draw Phase",
         "Standby Phase",
@@ -39,8 +43,8 @@ const initState = {
     spellTrapCards: [],
     gamestate_test: 'yes',
     gamestate: {
-        game_running: false,
-        phase: turnPhases[3]
+        game_running: 'false',
+        phase: turn[1]
     }
 
 }
@@ -81,10 +85,9 @@ const rootReducer = (state = initState, action) => {
             case "INCREMENT_PHASE":
                 return {
                     ...state,
-                    gamestate: {
-                        phase: turnPhases[2]
+                    phaseIndex: state.phaseIndex +1
                     }
-                    }
+                    
             
                 
             default: 

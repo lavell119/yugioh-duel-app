@@ -10,12 +10,15 @@ import FiendDeck from './fiend_deck.json'
 import Hand from './Hand.js'
 import { useState, useEffect } from 'react'
 import LifePoints from './LifePoints.js'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
+import { dispatch } from 'react'
 
 
 export default function PlayerFieldZone(props) {
+  const dispatch = useDispatch()
+  const phaseTester = useSelector(state=>state.phaseIndex)
+  const phaseTester2 = useSelector(state=>state.gamestate.phase)
 
-  const phaseTester = useSelector(state=>state.gamestate.phase)
   console.log('phaseTester:' + phaseTester)
   
   const [phase, setPhase] = useState('battle')
@@ -57,6 +60,8 @@ export default function PlayerFieldZone(props) {
     <div className={playerClass}>
         <div className="phase_tester white">p=
           {phaseTester}
+          {phaseTester2}
+          <button onClick={()=>dispatch({ type: "INCREMENT_PHASE"})} >Increment Phase</button>
         </div>
         { phase==="draw" && <div class="phase-test white">Draw Phase</div>}
         { phase==="standby" && <div class="phase-test white">Standby Phase</div>}
