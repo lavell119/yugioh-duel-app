@@ -58,6 +58,7 @@ export default function PlayerFieldZone(props) {
     return (
     
     <div className={playerClass}>
+      <div className="phase_display"><button onClick={()=>dispatch({ type: "INCREMENT_PHASE_2"})} >Increment Phase</button>{phaseTester2}</div>
         <div className="phase_tester white">
           {'state.phaseIndex =' +phaseTester}
           <br />
