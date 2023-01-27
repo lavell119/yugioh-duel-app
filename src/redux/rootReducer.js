@@ -103,6 +103,15 @@ const rootReducer = (state = initState, action) => {
                         game_running:true,
                         phase: turn[state.phaseIndex]
                     }
+                }
+                    case "DECREMENT_PHASE":
+                        return {
+                            ...state,
+                            phaseIndex: state.phaseIndex -1,
+                            gamestate: { 
+                                game_running:true,
+                                phase: turn[state.phaseIndex]
+                            }
                     }
                     
             
