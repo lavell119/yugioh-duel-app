@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import {useDispatch, useSelector } from "react-redux"
-import { dispatch } from 'react'
 
 
 export default function FieldCardDisplay() {

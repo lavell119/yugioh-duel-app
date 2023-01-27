@@ -58,10 +58,12 @@ export default function PlayerFieldZone(props) {
     return (
     
     <div className={playerClass}>
-        <div className="phase_tester white">p=
-          {phaseTester}
-          {phaseTester2}
+        <div className="phase_tester white">
+          {'state.phaseIndex =' +phaseTester}
+          <br />
+          {'state.gamestate.phase =' +phaseTester2}
           <button onClick={()=>dispatch({ type: "INCREMENT_PHASE"})} >Increment Phase</button>
+          <button onClick={()=>dispatch({ type: "INCREMENT_PHASE_2"})} >Increment Phase</button>
         </div>
         { phase==="draw" && <div class="phase-test white">Draw Phase</div>}
         { phase==="standby" && <div class="phase-test white">Standby Phase</div>}

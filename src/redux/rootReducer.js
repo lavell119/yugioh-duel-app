@@ -19,7 +19,15 @@ const turn =[
 
 //INITIAL STATE
 const initState = {
-    phaseIndex: index,
+    turn :[
+        "Draw Phase",
+        "Standby Phase",
+        "Main Phase 1",
+        "Battle Phase",
+        "Main Phase 2",
+        "End Phase"
+    ],
+    phaseIndex: 1,
     turnPhases: [
         "Draw Phase",
         "Standby Phase",
@@ -44,7 +52,7 @@ const initState = {
     gamestate_test: 'yes',
     gamestate: {
         game_running: 'false',
-        phase: turn[1]
+        phase: turn[index]
     }
 
 }
@@ -86,6 +94,15 @@ const rootReducer = (state = initState, action) => {
                 return {
                     ...state,
                     phaseIndex: state.phaseIndex +1
+                    }
+            case "INCREMENT_PHASE_2":
+                return {
+                    ...state,
+                    phaseIndex: state.phaseIndex +1,
+                    gamestate: { 
+                        game_running:true,
+                        phase: turn[state.phaseIndex]
+                    }
                     }
                     
             
