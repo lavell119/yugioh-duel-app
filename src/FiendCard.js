@@ -34,7 +34,7 @@ export default function FiendCard() {
           <>
             <div className="monster-card-info">
             <div class="attribute">Attack Points:<b>{attackPoints}</b></div>
-            <div class="attribute">Type: <b>{monsterType.toString()}</b></div>
+            <div class="attribute">Type: <b>{monsterType.join( "/ ")}</b></div>
             <div class="attribute">Defense Points:<b>{defensePoints}</b></div>
 
             <div class="attribute">Attribute: <b>{attribute}</b></div>
