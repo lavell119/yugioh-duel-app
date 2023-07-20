@@ -34,7 +34,7 @@ export default function DeckCard() {
           <>
             <div className="monster-card-info">
             <div class="attribute"><b>Attack Points:</b>{attackPoints}</div>
-            <div class="attribute"><b>Type:</b> {monsterType.toString()}</div>
+            <div class="attribute"><b>Type:</b> {monsterType.join( "/ ")}</div>
             <div class="attribute"><b>Defense Points:</b>{defensePoints}</div>
 
             <div class="attribute"><b>Attribute:</b> {attribute}</div>
