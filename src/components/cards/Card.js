@@ -37,7 +37,8 @@ export default function Card(props) {
   if (card){
   return (
     <>
-    <img className="card" src={cardImage} onClick={()=>dispatch({ type: "CHANGE_CARD_DISPLAY", payload: card})}
+    {/* creating mouseOver effect */}
+    <img className="card" src={cardImage} mouseOver= {mouseOver} onClick={()=>dispatch({ type: "CHANGE_CARD_DISPLAY", payload: card})}
      />
          {hover===true && <CardControls />}
 

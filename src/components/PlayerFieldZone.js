@@ -21,7 +21,8 @@ export default function PlayerFieldZone(props) {
 
   console.log('phaseTester:' + phaseTester)
   
-  const [phase, setPhase] = useState('battle')
+  const [phase, setPhase] = useState(phaseTester2)
+  console.log('PHASE=' +phase)
   console.log(props)
   let hando=props.hand
   let deck=props.deck

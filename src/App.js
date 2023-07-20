@@ -13,7 +13,7 @@ import KaibaCard from './KaibaCard';
 import DeckDraw from './components/DeckDraw';
 import FiendDeck from './FiendDeck';
 import FiendCard from './FiendCard';
-
+import DeckCard from './DeckCard.js'
 
 function App() {
   return (
@@ -23,7 +23,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
+        {/* all cards */}
         <Route exact path="/allcards" element={<AllCards />}></Route>
+        <Route exact path="/allcards/:id" element={<DeckCard />}></Route>
         <Route exact path="/yugideck" element={<YugiDeck />}></Route>
         <Route exact path="/kaibadeck" element={<KaibaDeck />}></Route>
         <Route exact path="/field" element={<Field />}></Route>
