@@ -228,6 +228,8 @@ a {
   height: 100%;
   padding: 10px;
   display: grid;
+  align-items: center;
+  justify-items: center;
   grid-template-columns: 1fr 1fr;
   font-size: 13px;
 
@@ -237,7 +239,8 @@ a {
   color: white;
   display: flex;
   justify-content: space-between;
-  width: 130px;
+  width: 120px;
+
 }
 
 .field-card-display {
