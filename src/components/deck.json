@@ -6,7 +6,7 @@
         "attack_points": 2400,
         "defense_points": 2150,
         "level": 6,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/beast_of_talwar.webp"
     },
     {
@@ -16,7 +16,7 @@
         "attack_points": 3000,
         "defense_points": 2500,
         "level": 8,
-        "attribute": "light",
+        "attribute": "LIGHT",
         "image": "/images/cards/blue_eyes_white_dragon.webp"
     },
     {
@@ -31,22 +31,22 @@
     },
     {
         "name": "Dark Magician",
-        "card_type": "spellcaster",
+        "card_type": "monster",
         "monster_type": ["Spellcaster"],
         "attack_points": 2500,
         "defense_points": 2100,
         "level": 7,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/dark_magician.jpg"
     },
     {
         "name": "Dark Ruler Ha Des",
-        "card_type": "fiend",
+        "card_type": "monster",
         "monster_type": ["Fiend", "Effect"],
         "attack_points": 2450,
         "defense_points": 1600,
         "level": 6,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/dark_ruler_ha_des.webp"
     },
     {
@@ -56,7 +56,7 @@
         "attack_points": 1800,
         "defense_points": 1700,
         "level": 5,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/mefist_the_infernal_general.webp"
     },
     {
@@ -81,7 +81,7 @@
         "attack_points": 2400,
         "defense_points": 2000,
         "level": 7,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/red_eyes_black_dragon.webp"
     },
     {
@@ -91,7 +91,7 @@
         "attack_points": 1000,
         "defense_points": 600,
         "level": 3,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/sangan.webp"
     },
     {
@@ -101,7 +101,7 @@
         "attack_points": 2400,
         "defense_points": 1500,
         "level": 6,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/jinzo.webp"
     },
     {
@@ -111,7 +111,7 @@
         "attack_points": 1000,
         "defense_points": 1000,
         "level": 3,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/exodia_the_forbidden_one.webp"
     },
     {
@@ -126,7 +126,7 @@
         "attack_points": 2500,
         "defense_points": 1200,
         "level": 6,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/summoned_skull.webp"
     },
     {
@@ -141,7 +141,7 @@
         "attack_points": 2600,
         "defense_points": 2300,
         "level": 7,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/buster_blader.webp"
     },
     {
@@ -156,7 +156,7 @@
         "attack_points": 1300,
         "defense_points": 2000,
         "level": 3,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/giant_soldier_of_stone.webp"
     },
     {
@@ -171,7 +171,7 @@
         "attack_points": 2000,
         "defense_points": 1700,
         "level": 6,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/dark_magician_girl.webp"
     },
     {
@@ -181,7 +181,7 @@
         "attack_points": 100,
         "defense_points": 2600,
         "level": 4,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/big_shield_gardna.webp"
     },
     {
@@ -191,7 +191,7 @@
         "attack_points": 1200,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/hitotsu_me_giant.webp"
     },
     {
@@ -201,7 +201,7 @@
         "attack_points": 1700,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/battle_ox.webp"
     },
     {
@@ -211,7 +211,7 @@
         "attack_points": 2200,
         "defense_points": 1500,
         "level": 6,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/judge_man.webp"
     },
     {
@@ -221,7 +221,7 @@
         "attack_points": 1600,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/rogue_doll.webp"
     },
     {
@@ -231,7 +231,7 @@
         "attack_points": 1800,
         "defense_points": 2000,
         "level": 6,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/gyakutenno_megami.webp"
     },
     {
@@ -246,7 +246,7 @@
         "attack_points": 1800,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/la_jinn_the_mystical_genie.webp"
     },
     {
@@ -256,7 +256,7 @@
         "attack_points": 1800,
         "defense_points": 1600,
         "level": 5,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/rude_kaiser.webp"
     },
     {
@@ -271,7 +271,7 @@
         "attack_points": 800,
         "defense_points": 2000,
         "level": 4,
-        "attribute": "light",
+        "attribute": "LIGHT",
         "image": "/images/cards/mystical_elf.webp"
     },
     {
@@ -281,7 +281,7 @@
         "attack_points": 1300,
         "defense_points": 1400,
         "level": 4,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/feral_imp.webp"
     },
     {
@@ -291,7 +291,7 @@
         "attack_points": 1400,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "wind",
+        "attribute": "WIND",
         "image": "/images/cards/winged_dragon_guardian_of_the_fortress.webp"
     },
     {
@@ -301,7 +301,7 @@
         "attack_points": 2300,
         "defense_points": 2100,
         "level": 7,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/gaia_the_fierce_knight.webp"
     },
     {
@@ -311,7 +311,7 @@
         "attack_points": 2000,
         "defense_points": 1500,
         "level": 5,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/curse_of_dragon.webp"
     },
     {
@@ -321,7 +321,7 @@
         "attack_points": 1400,
         "defense_points": 1200,
         "level": 4,
-        "attribute": "earth",
+        "attribute": "EARTH",
         "image": "/images/cards/celtic_guardian.webp"
     },
     {
@@ -331,7 +331,7 @@
         "attack_points": 1600,
         "defense_points": 800,
         "level": 4,
-        "attribute": "water",
+        "attribute": "WATER",
         "image": "/images/cards/great_white.webp"
     },
     {
@@ -341,7 +341,7 @@
         "attack_points": 1600,
         "defense_points": 0,
         "level": 3,
-        "attribute": "dark",
+        "attribute": "DARK",
         "image": "/images/cards/dragon_zombie.webp"
     },
     {
@@ -356,7 +356,7 @@
     },
     {
         "name": "Change of Heart",
-        "card_type": "magic",
+        "card_type": "MAGIC",
         "image": "/images/cards/change_of_heart.webp"
     },
     {
@@ -366,8 +366,8 @@
         "attack_points": 1000,
         "defense_points": 1850,
         "level": 4,
-        "attribute": "dark",
-        "image": "/images/cards/wall_of_illusion.webp"
+        "attribute": "DARK",
+        "image": "/images/cards/wall_of_illusion.Swebp"
     },
     {
         "name": "Neo the Magic Swordsman",
@@ -376,7 +376,7 @@
         "attack_points": 1700,
         "defense_points": 1000,
         "level": 4,
-        "attribute": "light",
+        "attribute": "LIGHT",
         "image": "/images/cards/neo_the_magic_swordsman.webp"
     },
     {
@@ -406,7 +406,7 @@
         "level": 1,
         "attack_points": 0,
         "defense_points": 0,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/relinquished.webp"
     },
     {
@@ -416,8 +416,13 @@
         "attack_points": 0,
         "defense_points": 0,
         "level": 1,
-        "attribute": "Dark",
+        "attribute": "DARK",
         "image": "/images/cards/thousand_eyes_restrict.webp"
+    },
+    {
+        "name": "Polymerization",
+        "card_type": "magic",
+        "image": "/images/cards/polymerization.webp"
     }
 
 

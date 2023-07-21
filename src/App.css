@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Cambria"
   
 }
 
@@ -386,4 +387,7 @@ a {
 .phase_display button {
   width: 70px;
   margin-right: 10px;
+}
+
+.blue {
 }

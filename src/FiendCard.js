@@ -33,12 +33,12 @@ export default function FiendCard() {
         {selectedCard.card_type==="monster" && 
           <>
             <div className="monster-card-info">
-            <div class="attribute">Attack Points:<b>{attackPoints}</b></div>
-            <div class="attribute">Type: <b>{monsterType.join( "/ ")}</b></div>
-            <div class="attribute">Defense Points:<b>{defensePoints}</b></div>
+            <div class="attribute">Attack Points:<b class="blue">{attackPoints}</b></div>
+            <div class="attribute">Type: <b class="blue">{monsterType.join( "/ ")}</b></div>
+            <div class="attribute">Defense Points:<b class="blue">{defensePoints}</b></div>
 
-            <div class="attribute">Attribute: <b>{attribute}</b></div>
-            <div class="attribute">Level:<b>{level}</b></div>
+            <div class="attribute">Attribute: <b class="blue">{attribute}</b></div>
+            <div class="attribute">Level:<b class="blue">{level}</b></div>
 
             </div>
           </>
