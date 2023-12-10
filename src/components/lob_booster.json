@@ -9,5 +9,26 @@
         "level": 8,
         "attribute": "DARK",
         "image": "/images/cards/lob/tri_horned_dragon.webp"
+    },
+    {
+        "name": "Blue-Eyes White Dragon",
+        "card_type": "monster",
+        "monster_type": ["Dragon"],
+        "attack_points": 3000,
+        "defense_points": 2500,
+        "level": 8,
+        "attribute": "LIGHT",
+        "image": "/images/cards/lob/blue_eyes_white_dragon.webp"
+    },
+    {
+        "name": "Skull Servant",
+        "card_type": "monster",
+        "monster_type": ["Zombie", "Normal"],
+        "attack_points": 300,
+        "defense_points": 200,
+        "level": 1,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/skull_servant.webp"
     }
+
 ]
