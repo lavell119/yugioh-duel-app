@@ -221,7 +221,7 @@ a {
 
 .card-info {
   height: 90px;
-  width: 300px;
+  width: 360px;
   border: 1px solid rgb(131, 131, 131);
 }
 
@@ -232,6 +232,7 @@ a {
   align-items: center;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
   font-size: 13px;
 
 }
@@ -240,7 +241,7 @@ a {
   color: white;
   display: flex;
   justify-content: space-between;
-  width: 120px;
+  width: 160px;
 
 }
 

@@ -12,6 +12,8 @@ import { useState, useEffect } from 'react'
 import LifePoints from './LifePoints.js'
 import { useSelector, useDispatch } from 'react-redux'
 import { dispatch } from 'react'
+import DrawPhase from './phaseComponents/DrawPhase.js'
+
 
 
 export default function PlayerFieldZone(props) {

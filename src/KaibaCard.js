@@ -13,16 +13,6 @@ export default function KaibaCard() {
     console.log(selectedCard)
 
 
-    let attackPoints = selectedCard.attack_points
-    let defensePoints = selectedCard.defense_points
-    let monsterType = selectedCard.monster_type
-    let attribute = selectedCard.attribute
-    let level = selectedCard.level
-
-
-
-    console.log(attackPoints)
-
   return (
     <>
     <Link to="/yugideck"><h4 class="white">Back</h4></Link>

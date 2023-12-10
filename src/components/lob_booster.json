@@ -1,0 +1,13 @@
+[
+   
+    {
+        "name": "Tri-Horned Dragon",
+        "card_type": "monster",
+        "monster_type": ["Dragon"],
+        "attack_points": 2850,
+        "defense_points": 2350,
+        "level": 8,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/tri_horned_dragon.webp"
+    }
+]
