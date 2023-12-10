@@ -14,6 +14,7 @@ import DeckDraw from './components/DeckDraw';
 import FiendDeck from './FiendDeck';
 import FiendCard from './FiendCard';
 import DeckCard from './DeckCard.js'
+import LOBBooster from './LOBBooster.js'
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
         <Route exact path="/deckdraw" element={<DeckDraw />}></Route>
         <Route exact path="/fienddeck" element={<FiendDeck />}></Route>
         <Route exact path="/fienddeck/:id" element={<FiendCard />}></Route> 
+        <Route exact path="/lobbooster" element={<LOBBooster />}></Route>
+
       </Routes>
     </Router>  
     </>
