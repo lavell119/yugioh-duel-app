@@ -29,6 +29,17 @@
         "level": 1,
         "attribute": "DARK",
         "image": "/images/cards/lob/skull_servant.webp"
+    },
+    {
+        "name": "Dark Magician",
+        "card_type": "monster",
+        "monster_type": ["Spellcaster", "Normal"],
+        "attack_points": 2500,
+        "defense_points": 2100,
+        "level": 7,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/dark_magician.webp"
     }
+
 
 ]
