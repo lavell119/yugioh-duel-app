@@ -39,6 +39,26 @@
         "level": 7,
         "attribute": "DARK",
         "image": "/images/cards/lob/dark_magician.webp"
+    },
+    {
+        "name": "Gaia the Fierce Knight",
+        "card_type": "monster",
+        "monster_type": ["Warrior"],
+        "attack_points": 2300,
+        "defense_points": 2100,
+        "level": 7,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/gaia_the_fierce_knight.webp"
+    },
+    {
+        "name": "Celtic Guardian",
+        "card_type": "monster",
+        "monster_type": ["Warrior"],
+        "attack_points": 1400,
+        "defense_points": 1200,
+        "level": 4,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/celtic_guardian.webp"
     }
 
 
