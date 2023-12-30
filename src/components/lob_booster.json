@@ -21,6 +21,26 @@
         "image": "/images/cards/lob/blue_eyes_white_dragon.webp"
     },
     {
+        "name": "Hitotsu-Me-Giant",
+        "card_type": "monster",
+        "monster_type": ["Beast-Warrior"],
+        "attack_points": 1200,
+        "defense_points": 1000,
+        "level": 4,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/hitotsu_me_giant.webp"
+    },
+    {
+        "name": "Flame Swordsman",
+        "card_type": "monster",
+        "monster_type": ["Warrior", "Fusion"],
+        "attack_points": 1800,
+        "defense_points": 1600,
+        "level": 5,
+        "attribute": "FIRE",
+        "image": "/images/cards/lob/flame_swordsman.webp"
+    },
+    {
         "name": "Skull Servant",
         "card_type": "monster",
         "monster_type": ["Zombie", "Normal"],

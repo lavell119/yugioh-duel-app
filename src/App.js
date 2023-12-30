@@ -36,7 +36,7 @@ function App() {
         <Route exact path="/fienddeck" element={<FiendDeck />}></Route>
         <Route exact path="/fienddeck/:id" element={<FiendCard />}></Route> 
         <Route exact path="/lobbooster" element={<LOBBooster />}></Route>
-        <Route exact path="/lobbooster/:id" element={<LOBCard />}></Route>
+        {/* <Route exact path="/lobbooster/:id" element={<LOBCard />}></Route> */}
 
 
       </Routes>
