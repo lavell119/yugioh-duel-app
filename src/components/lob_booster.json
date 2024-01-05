@@ -89,6 +89,26 @@
         "level": 2,
         "attribute": "EARTH",
         "image": "/images/cards/lob/basic_insect.webp"
+    },
+    {
+        "name": "Mammoth Graveyard",
+        "card_type": "monster",
+        "monster_type": ["Dinosaur", "Normal"],
+        "attack_points": 1200,
+        "defense_points": 800,
+        "level": 3,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/mammoth_graveyard.webp"
+    },
+    {
+        "name": "Silver Fang",
+        "card_type": "monster",
+        "monster_type": ["Dinosaur", "Normal"],
+        "attack_points": 1200,
+        "defense_points": 800,
+        "level": 3,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/silver_fang.webp"
     }
 
 
