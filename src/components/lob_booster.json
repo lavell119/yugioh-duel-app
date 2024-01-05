@@ -103,12 +103,43 @@
     {
         "name": "Silver Fang",
         "card_type": "monster",
-        "monster_type": ["Dinosaur", "Normal"],
+        "monster_type": ["Beast"],
         "attack_points": 1200,
         "defense_points": 800,
         "level": 3,
         "attribute": "EARTH",
         "image": "/images/cards/lob/silver_fang.webp"
+    },
+    {
+        "name": "Dark Gray",
+        "card_type": "monster",
+        "monster_type": ["Beast"],
+        "attack_points": 800,
+        "defense_points": 900,
+        "level": 3,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/dark_gray.webp"
+    },
+    
+    {
+        "name": "Trial of Nightmare",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack_points": 1300,
+        "defense_points": 900,
+        "level": 4,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/trial_of_nightmare.webp"
+    },
+    {
+        "name": "Nemuriko",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack_points": 800,
+        "defense_points": 700,
+        "level": 4,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/trial_of_nightmare.webp"
     }
 
 

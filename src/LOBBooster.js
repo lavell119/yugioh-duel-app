@@ -16,7 +16,7 @@ export default function LobBooster() {
         {Cards.map(card =>
           <div className="card-test">
             <div class="card-title"><Link to={`/lobcard/${Cards.indexOf(card)}`}>{card.name}</Link></div>
-            <Link to={`/fienddeck/${Cards.indexOf(card)}`}>
+            <Link to={`/lobcard/${Cards.indexOf(card)}`}>
             <img style={{ height: "150px", width: "100px" }}src={card.image} alt="" /> 
             </Link>
           </div>
