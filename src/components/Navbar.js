@@ -18,7 +18,6 @@ export default function Navbar() {
         <Link to="/kaibadeck" element={<KaibaDeck />}>Kaiba Deck</Link>
         <Link to="/fienddeck" element={<FiendDeck />}>Fiend Deck</Link>
         <Link to="/lobbooster" element={<LOBBooster />}>Legend of Blue Eyes White Dragon</Link>
-        <Link to="/">Home</Link>
         <Link to="/field" element={<Field />}>Field</Link>
 
     </div>
