@@ -79,6 +79,16 @@
         "level": 4,
         "attribute": "EARTH",
         "image": "/images/cards/lob/celtic_guardian.webp"
+    },
+    {
+        "name": "Basic Insect",
+        "card_type": "monster",
+        "monster_type": ["Insect"],
+        "attack_points": 500,
+        "defense_points": 700,
+        "level": 2,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/basic_insect.webp"
     }
 
 
