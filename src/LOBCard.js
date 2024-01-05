@@ -16,7 +16,7 @@ export default function LobCard() {
 
   return (
     <>
-    <Link to="/lobbooster"><h4 class="white">Back</h4></Link>
+    <Link to="/lobbooster"><div className="back-btn">Back</div></Link>
 
     <SingleCardSnippet card={selectedCard} />
     </>

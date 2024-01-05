@@ -134,13 +134,35 @@
     {
         "name": "Nemuriko",
         "card_type": "monster",
-        "monster_type": ["Fiend"],
+        "monster_type": ["Spellcaster"],
         "attack_points": 800,
         "defense_points": 700,
-        "level": 4,
+        "level": 3,
         "attribute": "DARK",
-        "image": "/images/cards/lob/trial_of_nightmare.webp"
+        "image": "/images/cards/lob/nemuriko.webp"
+    },
+    {
+        "name": "The 13th Grave",
+        "card_type": "monster",
+        "monster_type": ["Zombie"],
+        "attack_points": 1200,
+        "defense_points": 900,
+        "level": 3,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/the_13th_grave.webp"
+    },
+    {
+        "name": "Charubin the Fire Knight",
+        "card_type": "monster",
+        "monster_type": ["Pyro", "Fusion"],
+        "attack_points": 1100,
+        "defense_points": 800,
+        "level": 3,
+        "attribute": "FIRE",
+        "image": "/images/cards/lob/charabin_the_fire_knight.webp"
     }
+    
+    
 
 
 ]
