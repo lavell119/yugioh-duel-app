@@ -160,6 +160,16 @@
         "level": 3,
         "attribute": "FIRE",
         "image": "/images/cards/lob/charabin_the_fire_knight.webp"
+    },
+    {
+        "name": "Flame Manipulator",
+        "card_type": "monster",
+        "monster_type": ["Spellcaster", "Normal"],
+        "attack_points": 900,
+        "defense_points": 1000,
+        "level": 3,
+        "attribute": "FIRE",
+        "image": "/images/cards/lob/flame_manipulator.webp"
     }
     
     
