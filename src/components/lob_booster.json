@@ -170,6 +170,26 @@
         "level": 3,
         "attribute": "FIRE",
         "image": "/images/cards/lob/flame_manipulator.webp"
+    },
+    {
+        "name": "Monster Egg",
+        "card_type": "monster",
+        "monster_type": ["Warrior", "Normal"],
+        "attack_points": 600,
+        "defense_points": 900,
+        "level": 3,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/monster_egg.webp"
+    },
+    {
+        "name": "Firegrass",
+        "card_type": "monster",
+        "monster_type": ["Plant"],
+        "attack_points": 700,
+        "defense_points": 600,
+        "level": 2,
+        "attribute": "EARTH",
+        "image": "/images/cards/lob/firegrass.webp"
     }
     
     
