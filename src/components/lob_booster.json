@@ -190,6 +190,16 @@
         "level": 2,
         "attribute": "EARTH",
         "image": "/images/cards/lob/firegrass.webp"
+    },
+    {
+        "name": "Darkfire Dragon",
+        "card_type": "monster",
+        "monster_type": ["Dragon", "Fusion"],
+        "attack_points": 1500,
+        "defense_points": 1250,
+        "level": 2,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/darkfire_dragon.webp"
     }
     
     

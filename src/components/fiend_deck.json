@@ -271,6 +271,16 @@
         "name": "Graceful Charity",
         "card_type": "trap",
         "image": "/images/cards/graceful_charity.webp"
+    },
+    {
+        "name": "Big Eye",
+        "card_type": "monster",
+        "monster_type": ["Fiend"],
+        "attack_points": 1200,
+        "defense_points": 1000,
+        "level": 4,
+        "attribute": "DARK",
+        "image": "/images/cards/lob/big_eye.webp"
     }
 
 ]
